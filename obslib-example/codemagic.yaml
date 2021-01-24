@@ -1,0 +1,38 @@
+workflows:
+  macos-workflow:
+    name: macOS Workflow
+    instance_type: mac_mini
+    max_build_duration: 60
+    environment:
+      vars:
+        TERM: xterm-256color
+        SHELL: /bin/bash
+        FCI_CLONE_DEPTH: 1
+      xcode: latest
+      cocoapods: default
+    triggering:
+      events:
+        - push
+        - pull_request
+        - tag
+      branch_patterns:
+        - pattern: frame-callback
+          include: true
+          source: true
+        - pattern: '*'
+          include: false
+          source: false
+    scripts:
+      - name: Pull down artifact from larryaasen/obs-studio
+        script: curl -L https://github.com/larryaasen/obs-studio/releases/download/26.0-framework-1/obs-studio_7_artifacts.zip --output libobs-files.zip
+      - name: Unzip files
+        script: unzip libobs-files.zip -d libobs-files
+    artifacts:
+      - ./**/*.framework
+    publishing:
+      slack:
+        channel: '#general'
+        notify_on_build_start: true    # To receive a notification when a build starts
+        notify:
+          success: true                # To not receive a notification when a build succeeds
+          failure: true                # To not receive a notification when a build fails

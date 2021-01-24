@@ -1,0 +1,13 @@
+## User settings
+xcuserdata/
+
+.DS_Store
+
+build/
+Headers/
+Plugins/
+
+*.so
+
+obslib-example/Resources/data/
+
