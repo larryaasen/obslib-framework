@@ -16,17 +16,12 @@ workflows:
         - pull_request
         - tag
       branch_patterns:
-        - pattern: frame-callback
+        - pattern: '*'
           include: true
           source: true
-        - pattern: '*'
-          include: false
-          source: false
     scripts:
-      - name: Pull down artifact from larryaasen/obs-studio
-        script: curl -L https://github.com/larryaasen/obs-studio/releases/download/26.0-framework-1/obs-studio_7_artifacts.zip --output libobs-files.zip
-      - name: Unzip files
-        script: unzip libobs-files.zip -d libobs-files
+      - name: Pull down artifact from larryaasen/obs-studio and setup.
+        script: ./setup.sh
     artifacts:
       - ./**/*.framework
     publishing:
