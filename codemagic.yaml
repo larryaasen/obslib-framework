@@ -20,7 +20,7 @@ workflows:
           include: true
           source: true
     scripts:
-      - name: Pull down artifact from larryaasen/obs-studio and setup.
+      - name: Run Setup Script
         script: ./setup.sh
     artifacts:
       - ./build/obslib.framework
