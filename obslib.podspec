@@ -4,8 +4,8 @@ Pod::Spec.new do |s|
   s.version          = '26.1.2'
   s.summary          = 'OBS libobs Framework'
   s.description      = 'The OBS Studio libobs as a framework'
-  s.homepage         = 'https://github.com/obsproject/obs-studio/'
-  s.license          = { :type => 'GNU General Public License v2.0', :file => '../obs-studio/COPYING' }
+  s.homepage         = 'https://github.com/larryaasen/obslib-framework'
+  s.license          = { :type => 'GNU General Public License v3.0', :file => './LICENSE' }
   s.authors          = { 'Jim' => 'obs.jim@gmail.com' }
   s.source           = { :http => 'file:///Users/larry/Projects/obs-studio' }
   # s.source_files     = "build/obslib.framework/Headers/**/*.{h,hpp}"

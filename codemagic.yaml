@@ -23,7 +23,7 @@ workflows:
       - name: Pull down artifact from larryaasen/obs-studio and setup.
         script: ./setup.sh
     artifacts:
-      - ./**/*.framework
+      - ./build/obslib.framework
     publishing:
       slack:
         channel: '#general'
