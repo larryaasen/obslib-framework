@@ -8,10 +8,11 @@ rm -dfr libobs-files
 unzip -q libobs-files.zip -d libobs-files
 
 # Build framework
-cd src; xcodebuild -project obslib-framework.xcodeproj -scheme obslib -configuration Debug -allowProvisioningUpdates -sdk macosx clean build
+# When signing, use: -allowProvisioningUpdates
+cd src; xcodebuild -project obslib-framework.xcodeproj -scheme obslib -configuration Debug CODE_SIGNING_REQUIRED="NO" CODE_SIGN_IDENTITY= -sdk macosx clean build
 
 # Validate the Pod using the files in the working directory
 cd ..
 pwd
 ls -al
-pod lib lint obslib.podspec --quick
+pod lib lint obslib.podspec
