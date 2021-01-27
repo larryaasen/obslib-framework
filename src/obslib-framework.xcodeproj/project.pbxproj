@@ -1034,7 +1034,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = "/bin/sh -x";
-			shellScript = "#otool -l ${BUILT_PRODUCTS_DIR}/obslib.framework/obslib  \n#install_name_tool -add_rpath @loader_path/Libraries ${BUILT_PRODUCTS_DIR}/obslib.framework/obslib || true\nrm -R ${PROJECT_DIR}/../build\nmkdir -p ${PROJECT_DIR}/../build\ncp -Rf ${BUILT_PRODUCTS_DIR}/obslib.framework ${PROJECT_DIR}/../build/obslib.framework\n";
+			shellScript = "#otool -l ${BUILT_PRODUCTS_DIR}/obslib.framework/obslib  \n#install_name_tool -add_rpath @loader_path/Libraries ${BUILT_PRODUCTS_DIR}/obslib.framework/obslib || true\n#rm -R ${PROJECT_DIR}/../build\n#mkdir -p ${PROJECT_DIR}/../build\ncp -Rf ${BUILT_PRODUCTS_DIR}/obslib.framework ${PROJECT_DIR}/../obslib.framework\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
