@@ -7,114 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		46D8869825BE73E500EB380C /* obs-defs.h in Headers */ = {isa = PBXBuildFile; fileRef = 46D8868425BE73E400EB380C /* obs-defs.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46D8869925BE73E500EB380C /* obs-ffmpeg-compat.h in Headers */ = {isa = PBXBuildFile; fileRef = 46D8868525BE73E500EB380C /* obs-ffmpeg-compat.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46D8869A25BE73E500EB380C /* obs-hotkey.h in Headers */ = {isa = PBXBuildFile; fileRef = 46D8868625BE73E500EB380C /* obs-hotkey.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46D8869B25BE73E500EB380C /* obs-interaction.h in Headers */ = {isa = PBXBuildFile; fileRef = 46D8868725BE73E500EB380C /* obs-interaction.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46D8869C25BE73E500EB380C /* obs-scene.h in Headers */ = {isa = PBXBuildFile; fileRef = 46D8868825BE73E500EB380C /* obs-scene.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46D8869D25BE73E500EB380C /* obs-audio-controls.h in Headers */ = {isa = PBXBuildFile; fileRef = 46D8868925BE73E500EB380C /* obs-audio-controls.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46D8869E25BE73E500EB380C /* obs-output.h in Headers */ = {isa = PBXBuildFile; fileRef = 46D8868A25BE73E500EB380C /* obs-output.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46D8869F25BE73E500EB380C /* obs-properties.h in Headers */ = {isa = PBXBuildFile; fileRef = 46D8868B25BE73E500EB380C /* obs-properties.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46D886A025BE73E500EB380C /* obs-internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 46D8868C25BE73E500EB380C /* obs-internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46D886A125BE73E500EB380C /* obs-source.h in Headers */ = {isa = PBXBuildFile; fileRef = 46D8868D25BE73E500EB380C /* obs-source.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46D886A225BE73E500EB380C /* obs-config.h in Headers */ = {isa = PBXBuildFile; fileRef = 46D8868E25BE73E500EB380C /* obs-config.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46D886A325BE73E500EB380C /* obs.h in Headers */ = {isa = PBXBuildFile; fileRef = 46D8868F25BE73E500EB380C /* obs.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46D886A425BE73E500EB380C /* obs.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 46D8869025BE73E500EB380C /* obs.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
-		46D886A525BE73E500EB380C /* obs-encoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 46D8869125BE73E500EB380C /* obs-encoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46D886A625BE73E500EB380C /* obs-service.h in Headers */ = {isa = PBXBuildFile; fileRef = 46D8869225BE73E500EB380C /* obs-service.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46D886A725BE73E500EB380C /* obs-ui.h in Headers */ = {isa = PBXBuildFile; fileRef = 46D8869325BE73E500EB380C /* obs-ui.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46D886A825BE73E500EB380C /* obs-module.h in Headers */ = {isa = PBXBuildFile; fileRef = 46D8869425BE73E500EB380C /* obs-module.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46D886A925BE73E500EB380C /* obs-hotkeys.h in Headers */ = {isa = PBXBuildFile; fileRef = 46D8869525BE73E500EB380C /* obs-hotkeys.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46D886AA25BE73E500EB380C /* obs-avc.h in Headers */ = {isa = PBXBuildFile; fileRef = 46D8869625BE73E500EB380C /* obs-avc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46D886AB25BE73E500EB380C /* obs-data.h in Headers */ = {isa = PBXBuildFile; fileRef = 46D8869725BE73E500EB380C /* obs-data.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46D886D025BE781100EB380C /* proc.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D886C825BE77A500EB380C /* proc.h */; };
-		46D886D125BE782200EB380C /* decl.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D886C925BE77A500EB380C /* decl.h */; };
-		46D886D225BE782200EB380C /* signal.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D886CA25BE77A500EB380C /* signal.h */; };
-		46D886D325BE782200EB380C /* calldata.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D886CB25BE77A500EB380C /* calldata.h */; };
-		46D886ED25BE78A100EB380C /* vec2.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D886D625BE78A100EB380C /* vec2.h */; };
-		46D886EE25BE78A100EB380C /* half.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D886D725BE78A100EB380C /* half.h */; };
-		46D886EF25BE78A100EB380C /* axisang.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D886D825BE78A100EB380C /* axisang.h */; };
-		46D886F025BE78A100EB380C /* input.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D886D925BE78A100EB380C /* input.h */; };
-		46D886F125BE78A100EB380C /* basemath.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D886DA25BE78A100EB380C /* basemath.hpp */; };
-		46D886F225BE78A100EB380C /* shader-parser.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D886DB25BE78A100EB380C /* shader-parser.h */; };
-		46D886F325BE78A100EB380C /* graphics-internal.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D886DC25BE78A100EB380C /* graphics-internal.h */; };
-		46D886F425BE78A100EB380C /* math-extra.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D886DD25BE78A100EB380C /* math-extra.h */; };
-		46D886F525BE78A100EB380C /* device-exports.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D886DE25BE78A100EB380C /* device-exports.h */; };
-		46D886F625BE78A100EB380C /* plane.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D886DF25BE78A100EB380C /* plane.h */; };
-		46D886F725BE78A100EB380C /* matrix4.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D886E025BE78A100EB380C /* matrix4.h */; };
-		46D886F825BE78A100EB380C /* vec4.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D886E125BE78A100EB380C /* vec4.h */; };
-		46D886F925BE78A100EB380C /* quat.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D886E225BE78A100EB380C /* quat.h */; };
-		46D886FA25BE78A100EB380C /* math-defs.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D886E325BE78A100EB380C /* math-defs.h */; };
-		46D886FB25BE78A100EB380C /* image-file.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D886E425BE78A100EB380C /* image-file.h */; };
-		46D886FC25BE78A100EB380C /* effect-parser.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D886E525BE78A100EB380C /* effect-parser.h */; };
-		46D886FD25BE78A100EB380C /* bounds.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D886E625BE78A100EB380C /* bounds.h */; };
-		46D886FE25BE78A100EB380C /* vec3.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D886E725BE78A100EB380C /* vec3.h */; };
-		46D886FF25BE78A100EB380C /* effect.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D886E825BE78A100EB380C /* effect.h */; };
-		46D8870025BE78A100EB380C /* graphics.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D886E925BE78A100EB380C /* graphics.h */; };
-		46D8870125BE78A100EB380C /* matrix3.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D886EA25BE78A100EB380C /* matrix3.h */; };
-		46D8870225BE78A100EB380C /* libnsgif.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D886EC25BE78A100EB380C /* libnsgif.h */; };
-		46D8870F25BE790E00EB380C /* format-conversion.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8870525BE790E00EB380C /* format-conversion.h */; };
-		46D8871025BE790E00EB380C /* frame-rate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8870625BE790E00EB380C /* frame-rate.h */; };
-		46D8871125BE790E00EB380C /* video-scaler.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8870725BE790E00EB380C /* video-scaler.h */; };
-		46D8871225BE790E00EB380C /* video-frame.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8870825BE790E00EB380C /* video-frame.h */; };
-		46D8871325BE790E00EB380C /* audio-math.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8870925BE790E00EB380C /* audio-math.h */; };
-		46D8871425BE790E00EB380C /* video-io.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8870A25BE790E00EB380C /* video-io.h */; };
-		46D8871525BE790E00EB380C /* media-io-defs.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8870B25BE790E00EB380C /* media-io-defs.h */; };
-		46D8871625BE790E00EB380C /* audio-resampler.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8870C25BE790E00EB380C /* audio-resampler.h */; };
-		46D8871725BE790E00EB380C /* media-remux.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8870D25BE790E00EB380C /* media-remux.h */; };
-		46D8871825BE790E00EB380C /* audio-io.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8870E25BE790E00EB380C /* audio-io.h */; };
-		46D8875325BE7A3B00EB380C /* cf-lexer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8871A25BE7A3A00EB380C /* cf-lexer.h */; };
-		46D8875425BE7A3B00EB380C /* cfstring-utils.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8871C25BE7A3A00EB380C /* cfstring-utils.h */; };
-		46D8875525BE7A3B00EB380C /* debug-trap.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8871E25BE7A3A00EB380C /* debug-trap.h */; };
-		46D8875625BE7A3B00EB380C /* simde-arch.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8871F25BE7A3A00EB380C /* simde-arch.h */; };
-		46D8875725BE7A3B00EB380C /* simde-constify.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8872025BE7A3A00EB380C /* simde-constify.h */; };
-		46D8875825BE7A3B00EB380C /* simde-detect-clang.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8872125BE7A3A00EB380C /* simde-detect-clang.h */; };
-		46D8875925BE7A3B00EB380C /* simde-math.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8872225BE7A3A00EB380C /* simde-math.h */; };
-		46D8875A25BE7A3B00EB380C /* simde-features.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8872325BE7A3A00EB380C /* simde-features.h */; };
-		46D8875B25BE7A3B00EB380C /* hedley.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8872425BE7A3A00EB380C /* hedley.h */; };
-		46D8875C25BE7A3B00EB380C /* simde-common.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8872525BE7A3A00EB380C /* simde-common.h */; };
-		46D8875D25BE7A3B00EB380C /* check.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8872625BE7A3A00EB380C /* check.h */; };
-		46D8875E25BE7A3B00EB380C /* mmx.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8872825BE7A3A00EB380C /* mmx.h */; };
-		46D8875F25BE7A3B00EB380C /* sse2.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8872925BE7A3A00EB380C /* sse2.h */; };
-		46D8876025BE7A3B00EB380C /* sse.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8872A25BE7A3A00EB380C /* sse.h */; };
-		46D8876125BE7A3B00EB380C /* simde-diagnostic.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8872B25BE7A3A00EB380C /* simde-diagnostic.h */; };
-		46D8876225BE7A3B00EB380C /* simde-align.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8872C25BE7A3A00EB380C /* simde-align.h */; };
-		46D8876325BE7A3B00EB380C /* dstr.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8872D25BE7A3A00EB380C /* dstr.hpp */; };
-		46D8876425BE7A3B00EB380C /* cf-parser.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8872E25BE7A3A00EB380C /* cf-parser.h */; };
-		46D8876525BE7A3B00EB380C /* AlignedNew.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8872F25BE7A3A00EB380C /* AlignedNew.hpp */; };
-		46D8876625BE7A3B00EB380C /* threading.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8873025BE7A3B00EB380C /* threading.h */; };
-		46D8876725BE7A3B00EB380C /* util_uint64.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8873125BE7A3B00EB380C /* util_uint64.h */; };
-		46D8876825BE7A3B00EB380C /* file-serializer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8873225BE7A3B00EB380C /* file-serializer.h */; };
-		46D8876925BE7A3B00EB380C /* sse-intrin.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8873325BE7A3B00EB380C /* sse-intrin.h */; };
-		46D8876A25BE7A3B00EB380C /* curl-helper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8873525BE7A3B00EB380C /* curl-helper.h */; };
-		46D8876B25BE7A3B00EB380C /* serializer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8873625BE7A3B00EB380C /* serializer.h */; };
-		46D8876C25BE7A3B00EB380C /* text-lookup.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8873725BE7A3B00EB380C /* text-lookup.h */; };
-		46D8876D25BE7A3B00EB380C /* darray.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8873825BE7A3B00EB380C /* darray.h */; };
-		46D8876E25BE7A3B00EB380C /* bitstream.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8873925BE7A3B00EB380C /* bitstream.h */; };
-		46D8876F25BE7A3B00EB380C /* dstr.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8873A25BE7A3B00EB380C /* dstr.h */; };
-		46D8877025BE7A3B00EB380C /* util_uint128.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8873B25BE7A3B00EB380C /* util_uint128.h */; };
-		46D8877125BE7A3B00EB380C /* pipe.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8873C25BE7A3B00EB380C /* pipe.h */; };
-		46D8877225BE7A3B00EB380C /* lexer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8873D25BE7A3B00EB380C /* lexer.h */; };
-		46D8877325BE7A3B00EB380C /* threading-windows.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8873E25BE7A3B00EB380C /* threading-windows.h */; };
-		46D8877425BE7A3B00EB380C /* HRError.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8874025BE7A3B00EB380C /* HRError.hpp */; };
-		46D8877525BE7A3B00EB380C /* WinHandle.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8874125BE7A3B00EB380C /* WinHandle.hpp */; };
-		46D8877625BE7A3B00EB380C /* win-version.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8874225BE7A3B00EB380C /* win-version.h */; };
-		46D8877725BE7A3B00EB380C /* win-registry.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8874325BE7A3B00EB380C /* win-registry.h */; };
-		46D8877825BE7A3B00EB380C /* ComPtr.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8874425BE7A3B00EB380C /* ComPtr.hpp */; };
-		46D8877925BE7A3B00EB380C /* CoTaskMemPtr.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8874525BE7A3B00EB380C /* CoTaskMemPtr.hpp */; };
-		46D8877A25BE7A3B00EB380C /* util.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8874625BE7A3B00EB380C /* util.hpp */; };
-		46D8877B25BE7A3B00EB380C /* bmem.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8874725BE7A3B00EB380C /* bmem.h */; };
-		46D8877C25BE7A3B00EB380C /* profiler.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8874825BE7A3B00EB380C /* profiler.h */; };
-		46D8877D25BE7A3B00EB380C /* c99defs.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8874925BE7A3B00EB380C /* c99defs.h */; };
-		46D8877E25BE7A3B00EB380C /* crc32.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8874A25BE7A3B00EB380C /* crc32.h */; };
-		46D8877F25BE7A3B00EB380C /* config-file.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8874B25BE7A3B00EB380C /* config-file.h */; };
-		46D8878025BE7A3B00EB380C /* array-serializer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8874C25BE7A3B00EB380C /* array-serializer.h */; };
-		46D8878125BE7A3B00EB380C /* platform.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8874D25BE7A3B00EB380C /* platform.h */; };
-		46D8878225BE7A3B00EB380C /* utf8.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8874E25BE7A3B00EB380C /* utf8.h */; };
-		46D8878325BE7A3B00EB380C /* profiler.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8874F25BE7A3B00EB380C /* profiler.hpp */; };
-		46D8878425BE7A3B00EB380C /* circlebuf.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8875025BE7A3B00EB380C /* circlebuf.h */; };
-		46D8878525BE7A3B00EB380C /* base.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8875125BE7A3B00EB380C /* base.h */; };
-		46D8878625BE7A3B00EB380C /* threading-posix.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8875225BE7A3B00EB380C /* threading-posix.h */; };
 		46D887B325BFB0D100EB380C /* coreaudio-encoder.so in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8878925BFB00B00EB380C /* coreaudio-encoder.so */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		46D887B425BFB0D100EB380C /* decklink-captions.so in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8879525BFB00C00EB380C /* decklink-captions.so */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		46D887B525BFB0D100EB380C /* decklink-ouput-ui.so in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8878D25BFB00C00EB380C /* decklink-ouput-ui.so */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
@@ -176,28 +68,6 @@
 			dstPath = Headers/graphics;
 			dstSubfolderSpec = 1;
 			files = (
-				46D886FB25BE78A100EB380C /* image-file.h in CopyFiles */,
-				46D8870125BE78A100EB380C /* matrix3.h in CopyFiles */,
-				46D886FD25BE78A100EB380C /* bounds.h in CopyFiles */,
-				46D8870225BE78A100EB380C /* libnsgif.h in CopyFiles */,
-				46D886ED25BE78A100EB380C /* vec2.h in CopyFiles */,
-				46D886F425BE78A100EB380C /* math-extra.h in CopyFiles */,
-				46D886F725BE78A100EB380C /* matrix4.h in CopyFiles */,
-				46D886FE25BE78A100EB380C /* vec3.h in CopyFiles */,
-				46D886F525BE78A100EB380C /* device-exports.h in CopyFiles */,
-				46D886EF25BE78A100EB380C /* axisang.h in CopyFiles */,
-				46D886F225BE78A100EB380C /* shader-parser.h in CopyFiles */,
-				46D886F325BE78A100EB380C /* graphics-internal.h in CopyFiles */,
-				46D886F125BE78A100EB380C /* basemath.hpp in CopyFiles */,
-				46D886FC25BE78A100EB380C /* effect-parser.h in CopyFiles */,
-				46D886F825BE78A100EB380C /* vec4.h in CopyFiles */,
-				46D8870025BE78A100EB380C /* graphics.h in CopyFiles */,
-				46D886EE25BE78A100EB380C /* half.h in CopyFiles */,
-				46D886FF25BE78A100EB380C /* effect.h in CopyFiles */,
-				46D886F025BE78A100EB380C /* input.h in CopyFiles */,
-				46D886FA25BE78A100EB380C /* math-defs.h in CopyFiles */,
-				46D886F925BE78A100EB380C /* quat.h in CopyFiles */,
-				46D886F625BE78A100EB380C /* plane.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,30 +77,17 @@
 			dstPath = "Headers/media-io";
 			dstSubfolderSpec = 1;
 			files = (
-				46D8871725BE790E00EB380C /* media-remux.h in CopyFiles */,
-				46D8871025BE790E00EB380C /* frame-rate.h in CopyFiles */,
-				46D8871625BE790E00EB380C /* audio-resampler.h in CopyFiles */,
-				46D8871225BE790E00EB380C /* video-frame.h in CopyFiles */,
-				46D8871525BE790E00EB380C /* media-io-defs.h in CopyFiles */,
-				46D8870F25BE790E00EB380C /* format-conversion.h in CopyFiles */,
-				46D8871125BE790E00EB380C /* video-scaler.h in CopyFiles */,
-				46D8871325BE790E00EB380C /* audio-math.h in CopyFiles */,
-				46D8871825BE790E00EB380C /* audio-io.h in CopyFiles */,
-				46D8871425BE790E00EB380C /* video-io.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		461D69C225599A88003E4A28 /* CopyFiles */ = {
+		461D69C225599A88003E4A28 /* Copy Files */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = Headers/callback;
+			dstPath = "";
 			dstSubfolderSpec = 1;
 			files = (
-				46D886D025BE781100EB380C /* proc.h in CopyFiles */,
-				46D886D125BE782200EB380C /* decl.h in CopyFiles */,
-				46D886D225BE782200EB380C /* signal.h in CopyFiles */,
-				46D886D325BE782200EB380C /* calldata.h in CopyFiles */,
 			);
+			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		4689F4BD255C4D3F00A98111 /* CopyFiles */ = {
@@ -314,58 +171,6 @@
 			dstPath = Headers/util;
 			dstSubfolderSpec = 1;
 			files = (
-				46D8875E25BE7A3B00EB380C /* mmx.h in CopyFiles */,
-				46D8877425BE7A3B00EB380C /* HRError.hpp in CopyFiles */,
-				46D8877325BE7A3B00EB380C /* threading-windows.h in CopyFiles */,
-				46D8876A25BE7A3B00EB380C /* curl-helper.h in CopyFiles */,
-				46D8876825BE7A3B00EB380C /* file-serializer.h in CopyFiles */,
-				46D8877025BE7A3B00EB380C /* util_uint128.h in CopyFiles */,
-				46D8876725BE7A3B00EB380C /* util_uint64.h in CopyFiles */,
-				46D8875525BE7A3B00EB380C /* debug-trap.h in CopyFiles */,
-				46D8876125BE7A3B00EB380C /* simde-diagnostic.h in CopyFiles */,
-				46D8876625BE7A3B00EB380C /* threading.h in CopyFiles */,
-				46D8875725BE7A3B00EB380C /* simde-constify.h in CopyFiles */,
-				46D8877625BE7A3B00EB380C /* win-version.h in CopyFiles */,
-				46D8875925BE7A3B00EB380C /* simde-math.h in CopyFiles */,
-				46D8877D25BE7A3B00EB380C /* c99defs.h in CopyFiles */,
-				46D8878525BE7A3B00EB380C /* base.h in CopyFiles */,
-				46D8878425BE7A3B00EB380C /* circlebuf.h in CopyFiles */,
-				46D8875C25BE7A3B00EB380C /* simde-common.h in CopyFiles */,
-				46D8877725BE7A3B00EB380C /* win-registry.h in CopyFiles */,
-				46D8875F25BE7A3B00EB380C /* sse2.h in CopyFiles */,
-				46D8877E25BE7A3B00EB380C /* crc32.h in CopyFiles */,
-				46D8878125BE7A3B00EB380C /* platform.h in CopyFiles */,
-				46D8878625BE7A3B00EB380C /* threading-posix.h in CopyFiles */,
-				46D8876525BE7A3B00EB380C /* AlignedNew.hpp in CopyFiles */,
-				46D8878225BE7A3B00EB380C /* utf8.h in CopyFiles */,
-				46D8876C25BE7A3B00EB380C /* text-lookup.h in CopyFiles */,
-				46D8876925BE7A3B00EB380C /* sse-intrin.h in CopyFiles */,
-				46D8877125BE7A3B00EB380C /* pipe.h in CopyFiles */,
-				46D8877825BE7A3B00EB380C /* ComPtr.hpp in CopyFiles */,
-				46D8876F25BE7A3B00EB380C /* dstr.h in CopyFiles */,
-				46D8875425BE7A3B00EB380C /* cfstring-utils.h in CopyFiles */,
-				46D8875A25BE7A3B00EB380C /* simde-features.h in CopyFiles */,
-				46D8877925BE7A3B00EB380C /* CoTaskMemPtr.hpp in CopyFiles */,
-				46D8876B25BE7A3B00EB380C /* serializer.h in CopyFiles */,
-				46D8876225BE7A3B00EB380C /* simde-align.h in CopyFiles */,
-				46D8878325BE7A3B00EB380C /* profiler.hpp in CopyFiles */,
-				46D8875B25BE7A3B00EB380C /* hedley.h in CopyFiles */,
-				46D8877A25BE7A3B00EB380C /* util.hpp in CopyFiles */,
-				46D8876D25BE7A3B00EB380C /* darray.h in CopyFiles */,
-				46D8877F25BE7A3B00EB380C /* config-file.h in CopyFiles */,
-				46D8878025BE7A3B00EB380C /* array-serializer.h in CopyFiles */,
-				46D8876025BE7A3B00EB380C /* sse.h in CopyFiles */,
-				46D8877B25BE7A3B00EB380C /* bmem.h in CopyFiles */,
-				46D8875825BE7A3B00EB380C /* simde-detect-clang.h in CopyFiles */,
-				46D8875625BE7A3B00EB380C /* simde-arch.h in CopyFiles */,
-				46D8875D25BE7A3B00EB380C /* check.h in CopyFiles */,
-				46D8876E25BE7A3B00EB380C /* bitstream.h in CopyFiles */,
-				46D8877C25BE7A3B00EB380C /* profiler.h in CopyFiles */,
-				46D8876325BE7A3B00EB380C /* dstr.hpp in CopyFiles */,
-				46D8875325BE7A3B00EB380C /* cf-lexer.h in CopyFiles */,
-				46D8877225BE7A3B00EB380C /* lexer.h in CopyFiles */,
-				46D8877525BE7A3B00EB380C /* WinHandle.hpp in CopyFiles */,
-				46D8876425BE7A3B00EB380C /* cf-parser.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,6 +180,7 @@
 		461D69D5255C2CFB003E4A28 /* libavcodec.58.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavcodec.58.dylib; path = ../../../../private/tmp/obsdeps/bin/libavcodec.58.dylib; sourceTree = "<group>"; };
 		461D69D8255C2D0E003E4A28 /* libavutil.56.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavutil.56.dylib; path = ../../../../private/tmp/obsdeps/bin/libavutil.56.dylib; sourceTree = "<group>"; };
 		461D69DB255C2D1D003E4A28 /* libavformat.58.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavformat.58.dylib; path = ../../../../private/tmp/obsdeps/bin/libavformat.58.dylib; sourceTree = "<group>"; };
+		467B07C325C4CF0300C4E45F /* Headers */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Headers; path = "../libobs-files/Headers"; sourceTree = "<group>"; };
 		4689F4A0255C375000A98111 /* libmbedtls.2.16.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmbedtls.2.16.5.dylib; path = ../../../../private/tmp/obsdeps/lib/libmbedtls.2.16.5.dylib; sourceTree = "<group>"; };
 		4689F4A1255C375000A98111 /* libfreetype.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfreetype.6.dylib; path = ../../../../private/tmp/obsdeps/lib/libfreetype.6.dylib; sourceTree = "<group>"; };
 		4689F4A2255C375000A98111 /* libmbedx509.2.16.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmbedx509.2.16.5.dylib; path = ../../../../private/tmp/obsdeps/lib/libmbedx509.2.16.5.dylib; sourceTree = "<group>"; };
@@ -391,114 +197,6 @@
 		4689F4B3255C37C600A98111 /* libavdevice.58.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavdevice.58.dylib; path = ../../../../private/tmp/obsdeps/bin/libavdevice.58.dylib; sourceTree = "<group>"; };
 		4689F4B4255C37C700A98111 /* libx264.160.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libx264.160.dylib; path = ../../../../private/tmp/obsdeps/bin/libx264.160.dylib; sourceTree = "<group>"; };
 		4689F4B5255C37C700A98111 /* libswresample.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswresample.3.dylib; path = ../../../../private/tmp/obsdeps/bin/libswresample.3.dylib; sourceTree = "<group>"; };
-		46D8868425BE73E400EB380C /* obs-defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "obs-defs.h"; path = "../../libobs-files/libobs/obs-defs.h"; sourceTree = "<group>"; };
-		46D8868525BE73E500EB380C /* obs-ffmpeg-compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "obs-ffmpeg-compat.h"; path = "../../libobs-files/libobs/obs-ffmpeg-compat.h"; sourceTree = "<group>"; };
-		46D8868625BE73E500EB380C /* obs-hotkey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "obs-hotkey.h"; path = "../../libobs-files/libobs/obs-hotkey.h"; sourceTree = "<group>"; };
-		46D8868725BE73E500EB380C /* obs-interaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "obs-interaction.h"; path = "../../libobs-files/libobs/obs-interaction.h"; sourceTree = "<group>"; };
-		46D8868825BE73E500EB380C /* obs-scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "obs-scene.h"; path = "../../libobs-files/libobs/obs-scene.h"; sourceTree = "<group>"; };
-		46D8868925BE73E500EB380C /* obs-audio-controls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "obs-audio-controls.h"; path = "../../libobs-files/libobs/obs-audio-controls.h"; sourceTree = "<group>"; };
-		46D8868A25BE73E500EB380C /* obs-output.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "obs-output.h"; path = "../../libobs-files/libobs/obs-output.h"; sourceTree = "<group>"; };
-		46D8868B25BE73E500EB380C /* obs-properties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "obs-properties.h"; path = "../../libobs-files/libobs/obs-properties.h"; sourceTree = "<group>"; };
-		46D8868C25BE73E500EB380C /* obs-internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "obs-internal.h"; path = "../../libobs-files/libobs/obs-internal.h"; sourceTree = "<group>"; };
-		46D8868D25BE73E500EB380C /* obs-source.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "obs-source.h"; path = "../../libobs-files/libobs/obs-source.h"; sourceTree = "<group>"; };
-		46D8868E25BE73E500EB380C /* obs-config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "obs-config.h"; path = "../../libobs-files/libobs/obs-config.h"; sourceTree = "<group>"; };
-		46D8868F25BE73E500EB380C /* obs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = obs.h; path = "../../libobs-files/libobs/obs.h"; sourceTree = "<group>"; };
-		46D8869025BE73E500EB380C /* obs.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = obs.hpp; path = "../../libobs-files/libobs/obs.hpp"; sourceTree = "<group>"; };
-		46D8869125BE73E500EB380C /* obs-encoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "obs-encoder.h"; path = "../../libobs-files/libobs/obs-encoder.h"; sourceTree = "<group>"; };
-		46D8869225BE73E500EB380C /* obs-service.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "obs-service.h"; path = "../../libobs-files/libobs/obs-service.h"; sourceTree = "<group>"; };
-		46D8869325BE73E500EB380C /* obs-ui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "obs-ui.h"; path = "../../libobs-files/libobs/obs-ui.h"; sourceTree = "<group>"; };
-		46D8869425BE73E500EB380C /* obs-module.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "obs-module.h"; path = "../../libobs-files/libobs/obs-module.h"; sourceTree = "<group>"; };
-		46D8869525BE73E500EB380C /* obs-hotkeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "obs-hotkeys.h"; path = "../../libobs-files/libobs/obs-hotkeys.h"; sourceTree = "<group>"; };
-		46D8869625BE73E500EB380C /* obs-avc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "obs-avc.h"; path = "../../libobs-files/libobs/obs-avc.h"; sourceTree = "<group>"; };
-		46D8869725BE73E500EB380C /* obs-data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "obs-data.h"; path = "../../libobs-files/libobs/obs-data.h"; sourceTree = "<group>"; };
-		46D886C825BE77A500EB380C /* proc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = proc.h; sourceTree = "<group>"; };
-		46D886C925BE77A500EB380C /* decl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = decl.h; sourceTree = "<group>"; };
-		46D886CA25BE77A500EB380C /* signal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = signal.h; sourceTree = "<group>"; };
-		46D886CB25BE77A500EB380C /* calldata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = calldata.h; sourceTree = "<group>"; };
-		46D886D625BE78A100EB380C /* vec2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vec2.h; sourceTree = "<group>"; };
-		46D886D725BE78A100EB380C /* half.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = half.h; sourceTree = "<group>"; };
-		46D886D825BE78A100EB380C /* axisang.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = axisang.h; sourceTree = "<group>"; };
-		46D886D925BE78A100EB380C /* input.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = input.h; sourceTree = "<group>"; };
-		46D886DA25BE78A100EB380C /* basemath.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = basemath.hpp; sourceTree = "<group>"; };
-		46D886DB25BE78A100EB380C /* shader-parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "shader-parser.h"; sourceTree = "<group>"; };
-		46D886DC25BE78A100EB380C /* graphics-internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "graphics-internal.h"; sourceTree = "<group>"; };
-		46D886DD25BE78A100EB380C /* math-extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "math-extra.h"; sourceTree = "<group>"; };
-		46D886DE25BE78A100EB380C /* device-exports.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "device-exports.h"; sourceTree = "<group>"; };
-		46D886DF25BE78A100EB380C /* plane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = plane.h; sourceTree = "<group>"; };
-		46D886E025BE78A100EB380C /* matrix4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = matrix4.h; sourceTree = "<group>"; };
-		46D886E125BE78A100EB380C /* vec4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vec4.h; sourceTree = "<group>"; };
-		46D886E225BE78A100EB380C /* quat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quat.h; sourceTree = "<group>"; };
-		46D886E325BE78A100EB380C /* math-defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "math-defs.h"; sourceTree = "<group>"; };
-		46D886E425BE78A100EB380C /* image-file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "image-file.h"; sourceTree = "<group>"; };
-		46D886E525BE78A100EB380C /* effect-parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "effect-parser.h"; sourceTree = "<group>"; };
-		46D886E625BE78A100EB380C /* bounds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bounds.h; sourceTree = "<group>"; };
-		46D886E725BE78A100EB380C /* vec3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vec3.h; sourceTree = "<group>"; };
-		46D886E825BE78A100EB380C /* effect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = effect.h; sourceTree = "<group>"; };
-		46D886E925BE78A100EB380C /* graphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = graphics.h; sourceTree = "<group>"; };
-		46D886EA25BE78A100EB380C /* matrix3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = matrix3.h; sourceTree = "<group>"; };
-		46D886EC25BE78A100EB380C /* libnsgif.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libnsgif.h; sourceTree = "<group>"; };
-		46D8870525BE790E00EB380C /* format-conversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "format-conversion.h"; sourceTree = "<group>"; };
-		46D8870625BE790E00EB380C /* frame-rate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "frame-rate.h"; sourceTree = "<group>"; };
-		46D8870725BE790E00EB380C /* video-scaler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "video-scaler.h"; sourceTree = "<group>"; };
-		46D8870825BE790E00EB380C /* video-frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "video-frame.h"; sourceTree = "<group>"; };
-		46D8870925BE790E00EB380C /* audio-math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "audio-math.h"; sourceTree = "<group>"; };
-		46D8870A25BE790E00EB380C /* video-io.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "video-io.h"; sourceTree = "<group>"; };
-		46D8870B25BE790E00EB380C /* media-io-defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "media-io-defs.h"; sourceTree = "<group>"; };
-		46D8870C25BE790E00EB380C /* audio-resampler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "audio-resampler.h"; sourceTree = "<group>"; };
-		46D8870D25BE790E00EB380C /* media-remux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "media-remux.h"; sourceTree = "<group>"; };
-		46D8870E25BE790E00EB380C /* audio-io.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "audio-io.h"; sourceTree = "<group>"; };
-		46D8871A25BE7A3A00EB380C /* cf-lexer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "cf-lexer.h"; sourceTree = "<group>"; };
-		46D8871C25BE7A3A00EB380C /* cfstring-utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "cfstring-utils.h"; sourceTree = "<group>"; };
-		46D8871E25BE7A3A00EB380C /* debug-trap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "debug-trap.h"; sourceTree = "<group>"; };
-		46D8871F25BE7A3A00EB380C /* simde-arch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "simde-arch.h"; sourceTree = "<group>"; };
-		46D8872025BE7A3A00EB380C /* simde-constify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "simde-constify.h"; sourceTree = "<group>"; };
-		46D8872125BE7A3A00EB380C /* simde-detect-clang.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "simde-detect-clang.h"; sourceTree = "<group>"; };
-		46D8872225BE7A3A00EB380C /* simde-math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "simde-math.h"; sourceTree = "<group>"; };
-		46D8872325BE7A3A00EB380C /* simde-features.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "simde-features.h"; sourceTree = "<group>"; };
-		46D8872425BE7A3A00EB380C /* hedley.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hedley.h; sourceTree = "<group>"; };
-		46D8872525BE7A3A00EB380C /* simde-common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "simde-common.h"; sourceTree = "<group>"; };
-		46D8872625BE7A3A00EB380C /* check.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = check.h; sourceTree = "<group>"; };
-		46D8872825BE7A3A00EB380C /* mmx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mmx.h; sourceTree = "<group>"; };
-		46D8872925BE7A3A00EB380C /* sse2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sse2.h; sourceTree = "<group>"; };
-		46D8872A25BE7A3A00EB380C /* sse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sse.h; sourceTree = "<group>"; };
-		46D8872B25BE7A3A00EB380C /* simde-diagnostic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "simde-diagnostic.h"; sourceTree = "<group>"; };
-		46D8872C25BE7A3A00EB380C /* simde-align.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "simde-align.h"; sourceTree = "<group>"; };
-		46D8872D25BE7A3A00EB380C /* dstr.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = dstr.hpp; sourceTree = "<group>"; };
-		46D8872E25BE7A3A00EB380C /* cf-parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "cf-parser.h"; sourceTree = "<group>"; };
-		46D8872F25BE7A3A00EB380C /* AlignedNew.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AlignedNew.hpp; sourceTree = "<group>"; };
-		46D8873025BE7A3B00EB380C /* threading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = threading.h; sourceTree = "<group>"; };
-		46D8873125BE7A3B00EB380C /* util_uint64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util_uint64.h; sourceTree = "<group>"; };
-		46D8873225BE7A3B00EB380C /* file-serializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "file-serializer.h"; sourceTree = "<group>"; };
-		46D8873325BE7A3B00EB380C /* sse-intrin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "sse-intrin.h"; sourceTree = "<group>"; };
-		46D8873525BE7A3B00EB380C /* curl-helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "curl-helper.h"; sourceTree = "<group>"; };
-		46D8873625BE7A3B00EB380C /* serializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = serializer.h; sourceTree = "<group>"; };
-		46D8873725BE7A3B00EB380C /* text-lookup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "text-lookup.h"; sourceTree = "<group>"; };
-		46D8873825BE7A3B00EB380C /* darray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = darray.h; sourceTree = "<group>"; };
-		46D8873925BE7A3B00EB380C /* bitstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitstream.h; sourceTree = "<group>"; };
-		46D8873A25BE7A3B00EB380C /* dstr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dstr.h; sourceTree = "<group>"; };
-		46D8873B25BE7A3B00EB380C /* util_uint128.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util_uint128.h; sourceTree = "<group>"; };
-		46D8873C25BE7A3B00EB380C /* pipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pipe.h; sourceTree = "<group>"; };
-		46D8873D25BE7A3B00EB380C /* lexer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lexer.h; sourceTree = "<group>"; };
-		46D8873E25BE7A3B00EB380C /* threading-windows.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "threading-windows.h"; sourceTree = "<group>"; };
-		46D8874025BE7A3B00EB380C /* HRError.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HRError.hpp; sourceTree = "<group>"; };
-		46D8874125BE7A3B00EB380C /* WinHandle.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = WinHandle.hpp; sourceTree = "<group>"; };
-		46D8874225BE7A3B00EB380C /* win-version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "win-version.h"; sourceTree = "<group>"; };
-		46D8874325BE7A3B00EB380C /* win-registry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "win-registry.h"; sourceTree = "<group>"; };
-		46D8874425BE7A3B00EB380C /* ComPtr.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ComPtr.hpp; sourceTree = "<group>"; };
-		46D8874525BE7A3B00EB380C /* CoTaskMemPtr.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CoTaskMemPtr.hpp; sourceTree = "<group>"; };
-		46D8874625BE7A3B00EB380C /* util.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = util.hpp; sourceTree = "<group>"; };
-		46D8874725BE7A3B00EB380C /* bmem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bmem.h; sourceTree = "<group>"; };
-		46D8874825BE7A3B00EB380C /* profiler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = profiler.h; sourceTree = "<group>"; };
-		46D8874925BE7A3B00EB380C /* c99defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = c99defs.h; sourceTree = "<group>"; };
-		46D8874A25BE7A3B00EB380C /* crc32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crc32.h; sourceTree = "<group>"; };
-		46D8874B25BE7A3B00EB380C /* config-file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "config-file.h"; sourceTree = "<group>"; };
-		46D8874C25BE7A3B00EB380C /* array-serializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "array-serializer.h"; sourceTree = "<group>"; };
-		46D8874D25BE7A3B00EB380C /* platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = platform.h; sourceTree = "<group>"; };
-		46D8874E25BE7A3B00EB380C /* utf8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utf8.h; sourceTree = "<group>"; };
-		46D8874F25BE7A3B00EB380C /* profiler.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = profiler.hpp; sourceTree = "<group>"; };
-		46D8875025BE7A3B00EB380C /* circlebuf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = circlebuf.h; sourceTree = "<group>"; };
-		46D8875125BE7A3B00EB380C /* base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base.h; sourceTree = "<group>"; };
-		46D8875225BE7A3B00EB380C /* threading-posix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "threading-posix.h"; sourceTree = "<group>"; };
 		46D8878825BFB00B00EB380C /* obs-vst.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = "obs-vst.so"; path = "../../libobs-files/build/rundir/RelWithDebInfo/obs-plugins/obs-vst.so"; sourceTree = "<group>"; };
 		46D8878925BFB00B00EB380C /* coreaudio-encoder.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = "coreaudio-encoder.so"; path = "../../libobs-files/build/rundir/RelWithDebInfo/obs-plugins/coreaudio-encoder.so"; sourceTree = "<group>"; };
 		46D8878A25BFB00C00EB380C /* frontend-tools.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = "frontend-tools.so"; path = "../../libobs-files/build/rundir/RelWithDebInfo/obs-plugins/frontend-tools.so"; sourceTree = "<group>"; };
@@ -567,37 +265,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4689F48A255C354A00A98111 /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				46D886C725BE77A500EB380C /* callback */,
-				46D886D525BE78A100EB380C /* graphics */,
-				46D8870425BE790E00EB380C /* media-io */,
-				46D8871925BE7A3A00EB380C /* util */,
-				46D8868925BE73E500EB380C /* obs-audio-controls.h */,
-				46D8869625BE73E500EB380C /* obs-avc.h */,
-				46D8868E25BE73E500EB380C /* obs-config.h */,
-				46D8869725BE73E500EB380C /* obs-data.h */,
-				46D8868425BE73E400EB380C /* obs-defs.h */,
-				46D8869125BE73E500EB380C /* obs-encoder.h */,
-				46D8868525BE73E500EB380C /* obs-ffmpeg-compat.h */,
-				46D8868625BE73E500EB380C /* obs-hotkey.h */,
-				46D8869525BE73E500EB380C /* obs-hotkeys.h */,
-				46D8868725BE73E500EB380C /* obs-interaction.h */,
-				46D8868C25BE73E500EB380C /* obs-internal.h */,
-				46D8869425BE73E500EB380C /* obs-module.h */,
-				46D8868A25BE73E500EB380C /* obs-output.h */,
-				46D8868B25BE73E500EB380C /* obs-properties.h */,
-				46D8868825BE73E500EB380C /* obs-scene.h */,
-				46D8869225BE73E500EB380C /* obs-service.h */,
-				46D8868D25BE73E500EB380C /* obs-source.h */,
-				46D8869325BE73E500EB380C /* obs-ui.h */,
-				46D8868F25BE73E500EB380C /* obs.h */,
-				46D8869025BE73E500EB380C /* obs.hpp */,
-			);
-			path = Headers;
-			sourceTree = "<group>";
-		};
 		4689F497255C35F600A98111 /* PlugIns */ = {
 			isa = PBXGroup;
 			children = (
@@ -626,174 +293,6 @@
 			path = PlugIns;
 			sourceTree = "<group>";
 		};
-		46D886C725BE77A500EB380C /* callback */ = {
-			isa = PBXGroup;
-			children = (
-				46D886C825BE77A500EB380C /* proc.h */,
-				46D886C925BE77A500EB380C /* decl.h */,
-				46D886CA25BE77A500EB380C /* signal.h */,
-				46D886CB25BE77A500EB380C /* calldata.h */,
-			);
-			name = callback;
-			path = "../../libobs-files/libobs/callback";
-			sourceTree = "<group>";
-		};
-		46D886D525BE78A100EB380C /* graphics */ = {
-			isa = PBXGroup;
-			children = (
-				46D886D625BE78A100EB380C /* vec2.h */,
-				46D886D725BE78A100EB380C /* half.h */,
-				46D886D825BE78A100EB380C /* axisang.h */,
-				46D886D925BE78A100EB380C /* input.h */,
-				46D886DA25BE78A100EB380C /* basemath.hpp */,
-				46D886DB25BE78A100EB380C /* shader-parser.h */,
-				46D886DC25BE78A100EB380C /* graphics-internal.h */,
-				46D886DD25BE78A100EB380C /* math-extra.h */,
-				46D886DE25BE78A100EB380C /* device-exports.h */,
-				46D886DF25BE78A100EB380C /* plane.h */,
-				46D886E025BE78A100EB380C /* matrix4.h */,
-				46D886E125BE78A100EB380C /* vec4.h */,
-				46D886E225BE78A100EB380C /* quat.h */,
-				46D886E325BE78A100EB380C /* math-defs.h */,
-				46D886E425BE78A100EB380C /* image-file.h */,
-				46D886E525BE78A100EB380C /* effect-parser.h */,
-				46D886E625BE78A100EB380C /* bounds.h */,
-				46D886E725BE78A100EB380C /* vec3.h */,
-				46D886E825BE78A100EB380C /* effect.h */,
-				46D886E925BE78A100EB380C /* graphics.h */,
-				46D886EA25BE78A100EB380C /* matrix3.h */,
-				46D886EB25BE78A100EB380C /* libnsgif */,
-			);
-			name = graphics;
-			path = "../../libobs-files/libobs/graphics";
-			sourceTree = "<group>";
-		};
-		46D886EB25BE78A100EB380C /* libnsgif */ = {
-			isa = PBXGroup;
-			children = (
-				46D886EC25BE78A100EB380C /* libnsgif.h */,
-			);
-			path = libnsgif;
-			sourceTree = "<group>";
-		};
-		46D8870425BE790E00EB380C /* media-io */ = {
-			isa = PBXGroup;
-			children = (
-				46D8870525BE790E00EB380C /* format-conversion.h */,
-				46D8870625BE790E00EB380C /* frame-rate.h */,
-				46D8870725BE790E00EB380C /* video-scaler.h */,
-				46D8870825BE790E00EB380C /* video-frame.h */,
-				46D8870925BE790E00EB380C /* audio-math.h */,
-				46D8870A25BE790E00EB380C /* video-io.h */,
-				46D8870B25BE790E00EB380C /* media-io-defs.h */,
-				46D8870C25BE790E00EB380C /* audio-resampler.h */,
-				46D8870D25BE790E00EB380C /* media-remux.h */,
-				46D8870E25BE790E00EB380C /* audio-io.h */,
-			);
-			name = "media-io";
-			path = "../../libobs-files/libobs/media-io";
-			sourceTree = "<group>";
-		};
-		46D8871925BE7A3A00EB380C /* util */ = {
-			isa = PBXGroup;
-			children = (
-				46D8871A25BE7A3A00EB380C /* cf-lexer.h */,
-				46D8871B25BE7A3A00EB380C /* apple */,
-				46D8871D25BE7A3A00EB380C /* simde */,
-				46D8872D25BE7A3A00EB380C /* dstr.hpp */,
-				46D8872E25BE7A3A00EB380C /* cf-parser.h */,
-				46D8872F25BE7A3A00EB380C /* AlignedNew.hpp */,
-				46D8873025BE7A3B00EB380C /* threading.h */,
-				46D8873125BE7A3B00EB380C /* util_uint64.h */,
-				46D8873225BE7A3B00EB380C /* file-serializer.h */,
-				46D8873325BE7A3B00EB380C /* sse-intrin.h */,
-				46D8873425BE7A3B00EB380C /* curl */,
-				46D8873625BE7A3B00EB380C /* serializer.h */,
-				46D8873725BE7A3B00EB380C /* text-lookup.h */,
-				46D8873825BE7A3B00EB380C /* darray.h */,
-				46D8873925BE7A3B00EB380C /* bitstream.h */,
-				46D8873A25BE7A3B00EB380C /* dstr.h */,
-				46D8873B25BE7A3B00EB380C /* util_uint128.h */,
-				46D8873C25BE7A3B00EB380C /* pipe.h */,
-				46D8873D25BE7A3B00EB380C /* lexer.h */,
-				46D8873E25BE7A3B00EB380C /* threading-windows.h */,
-				46D8873F25BE7A3B00EB380C /* windows */,
-				46D8874625BE7A3B00EB380C /* util.hpp */,
-				46D8874725BE7A3B00EB380C /* bmem.h */,
-				46D8874825BE7A3B00EB380C /* profiler.h */,
-				46D8874925BE7A3B00EB380C /* c99defs.h */,
-				46D8874A25BE7A3B00EB380C /* crc32.h */,
-				46D8874B25BE7A3B00EB380C /* config-file.h */,
-				46D8874C25BE7A3B00EB380C /* array-serializer.h */,
-				46D8874D25BE7A3B00EB380C /* platform.h */,
-				46D8874E25BE7A3B00EB380C /* utf8.h */,
-				46D8874F25BE7A3B00EB380C /* profiler.hpp */,
-				46D8875025BE7A3B00EB380C /* circlebuf.h */,
-				46D8875125BE7A3B00EB380C /* base.h */,
-				46D8875225BE7A3B00EB380C /* threading-posix.h */,
-			);
-			name = util;
-			path = "../../libobs-files/libobs/util";
-			sourceTree = "<group>";
-		};
-		46D8871B25BE7A3A00EB380C /* apple */ = {
-			isa = PBXGroup;
-			children = (
-				46D8871C25BE7A3A00EB380C /* cfstring-utils.h */,
-			);
-			path = apple;
-			sourceTree = "<group>";
-		};
-		46D8871D25BE7A3A00EB380C /* simde */ = {
-			isa = PBXGroup;
-			children = (
-				46D8871E25BE7A3A00EB380C /* debug-trap.h */,
-				46D8871F25BE7A3A00EB380C /* simde-arch.h */,
-				46D8872025BE7A3A00EB380C /* simde-constify.h */,
-				46D8872125BE7A3A00EB380C /* simde-detect-clang.h */,
-				46D8872225BE7A3A00EB380C /* simde-math.h */,
-				46D8872325BE7A3A00EB380C /* simde-features.h */,
-				46D8872425BE7A3A00EB380C /* hedley.h */,
-				46D8872525BE7A3A00EB380C /* simde-common.h */,
-				46D8872625BE7A3A00EB380C /* check.h */,
-				46D8872725BE7A3A00EB380C /* x86 */,
-				46D8872B25BE7A3A00EB380C /* simde-diagnostic.h */,
-				46D8872C25BE7A3A00EB380C /* simde-align.h */,
-			);
-			path = simde;
-			sourceTree = "<group>";
-		};
-		46D8872725BE7A3A00EB380C /* x86 */ = {
-			isa = PBXGroup;
-			children = (
-				46D8872825BE7A3A00EB380C /* mmx.h */,
-				46D8872925BE7A3A00EB380C /* sse2.h */,
-				46D8872A25BE7A3A00EB380C /* sse.h */,
-			);
-			path = x86;
-			sourceTree = "<group>";
-		};
-		46D8873425BE7A3B00EB380C /* curl */ = {
-			isa = PBXGroup;
-			children = (
-				46D8873525BE7A3B00EB380C /* curl-helper.h */,
-			);
-			path = curl;
-			sourceTree = "<group>";
-		};
-		46D8873F25BE7A3B00EB380C /* windows */ = {
-			isa = PBXGroup;
-			children = (
-				46D8874025BE7A3B00EB380C /* HRError.hpp */,
-				46D8874125BE7A3B00EB380C /* WinHandle.hpp */,
-				46D8874225BE7A3B00EB380C /* win-version.h */,
-				46D8874325BE7A3B00EB380C /* win-registry.h */,
-				46D8874425BE7A3B00EB380C /* ComPtr.hpp */,
-				46D8874525BE7A3B00EB380C /* CoTaskMemPtr.hpp */,
-			);
-			path = windows;
-			sourceTree = "<group>";
-		};
 		46D8A98725BFB74400EB380C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -804,8 +303,6 @@
 		46FFC82B2558A10000D79F66 = {
 			isa = PBXGroup;
 			children = (
-				46E2C6B625BFB97B0008F59C /* data */,
-				46D8A98725BFB74400EB380C /* Resources */,
 				4689F4B0255C37C600A98111 /* libavcodec.58.dylib */,
 				4689F4B3255C37C600A98111 /* libavdevice.58.dylib */,
 				4689F4AE255C37C600A98111 /* libavfilter.7.dylib */,
@@ -822,8 +319,10 @@
 				4689F4A0255C375000A98111 /* libmbedtls.2.16.5.dylib */,
 				4689F4A2255C375000A98111 /* libmbedx509.2.16.5.dylib */,
 				4689F4A3255C375100A98111 /* librnnoise.0.dylib */,
-				4689F48A255C354A00A98111 /* Headers */,
+				46E2C6B625BFB97B0008F59C /* data */,
+				467B07C325C4CF0300C4E45F /* Headers */,
 				4689F497255C35F600A98111 /* PlugIns */,
+				46D8A98725BFB74400EB380C /* Resources */,
 				46FFC8372558A10000D79F66 /* obslib-framework */,
 				46FFC8422558A10100D79F66 /* obslib-frameworkTests */,
 				46FFC8362558A10000D79F66 /* Products */,
@@ -893,27 +392,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46D886A125BE73E500EB380C /* obs-source.h in Headers */,
-				46D886A425BE73E500EB380C /* obs.hpp in Headers */,
-				46D886A025BE73E500EB380C /* obs-internal.h in Headers */,
-				46D8869F25BE73E500EB380C /* obs-properties.h in Headers */,
-				46D886A225BE73E500EB380C /* obs-config.h in Headers */,
 				46FFC8462558A10100D79F66 /* obslib_framework.h in Headers */,
-				46D8869925BE73E500EB380C /* obs-ffmpeg-compat.h in Headers */,
-				46D886AB25BE73E500EB380C /* obs-data.h in Headers */,
-				46D8869B25BE73E500EB380C /* obs-interaction.h in Headers */,
-				46D886A325BE73E500EB380C /* obs.h in Headers */,
-				46D8869D25BE73E500EB380C /* obs-audio-controls.h in Headers */,
-				46D886A525BE73E500EB380C /* obs-encoder.h in Headers */,
-				46D8869A25BE73E500EB380C /* obs-hotkey.h in Headers */,
-				46D8869C25BE73E500EB380C /* obs-scene.h in Headers */,
-				46D886A825BE73E500EB380C /* obs-module.h in Headers */,
-				46D886A725BE73E500EB380C /* obs-ui.h in Headers */,
-				46D8869E25BE73E500EB380C /* obs-output.h in Headers */,
-				46D8869825BE73E500EB380C /* obs-defs.h in Headers */,
-				46D886A625BE73E500EB380C /* obs-service.h in Headers */,
-				46D886AA25BE73E500EB380C /* obs-avc.h in Headers */,
-				46D886A925BE73E500EB380C /* obs-hotkeys.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -925,14 +404,13 @@
 			buildConfigurationList = 46FFC8492558A10100D79F66 /* Build configuration list for PBXNativeTarget "obslib" */;
 			buildPhases = (
 				46FFC8302558A10000D79F66 /* Headers */,
-				461D69C225599A88003E4A28 /* CopyFiles */,
+				461D69C225599A88003E4A28 /* Copy Files */,
 				461D699025599955003E4A28 /* CopyFiles */,
 				461D69A6255999CE003E4A28 /* CopyFiles */,
 				46FFCA3C2558B0CE00D79F66 /* CopyFiles */,
 				46FFC8312558A10000D79F66 /* Sources */,
 				46FFC8592558A35B00D79F66 /* Embed Libraries */,
 				46FFC8322558A10000D79F66 /* Frameworks */,
-				46FFC8332558A10000D79F66 /* Resources */,
 				4689F4BD255C4D3F00A98111 /* CopyFiles */,
 				46FFC8602558A3A800D79F66 /* CopyFiles */,
 				46FFC8632558A42800D79F66 /* CopyFiles */,
@@ -1002,13 +480,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		46FFC8332558A10000D79F66 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		46FFC83C2558A10100D79F66 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1034,7 +505,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = "/bin/sh -x";
-			shellScript = "#otool -l ${BUILT_PRODUCTS_DIR}/obslib.framework/obslib  \n#install_name_tool -add_rpath @loader_path/Libraries ${BUILT_PRODUCTS_DIR}/obslib.framework/obslib || true\n#rm -R ${PROJECT_DIR}/../build\n#mkdir -p ${PROJECT_DIR}/../build\ncp -Rf ${BUILT_PRODUCTS_DIR}/obslib.framework ${PROJECT_DIR}/../obslib.framework\n";
+			shellScript = "# Copy Header files\ncp -Rf ${PROJECT_DIR}/../libobs-files/Headers/ ${CONTENTS_FOLDER_PATH}/Headers\n\n# Remove framework folder so the end result is clean\nrm -R ${PROJECT_DIR}/../obslib.framework    \n\n#mkdir -p ${PROJECT_DIR}/../build\n\ncp -Rf ${BUILT_PRODUCTS_DIR}/obslib.framework ${PROJECT_DIR}/../obslib.framework\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 

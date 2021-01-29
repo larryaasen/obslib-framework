@@ -1,4 +1,11 @@
-## obslib-framework
+# obslib-framework
+
+[![Codemagic](https://api.codemagic.io/apps/600d732c627f2f877727d718/macos-workflow/status_badge.svg)](https://codemagic.io/app/600d732c627f2f877727d718)
+[![GitHub Stars](https://img.shields.io/github/stars/larryaasen/obslib-framework.svg)](https://github.com/larryaasen/obslib-framework/stargazers)
+
+
+## Introduction
+
 This project creates a framework of the [OBS Studio](https://github.com/obsproject/obs-studio/) core library called [libobs](https://github.com/obsproject/obs-studio/tree/master/libobs) by
 packaging it into a macOS framework. It also creates a Cocoapod called obslib.
 

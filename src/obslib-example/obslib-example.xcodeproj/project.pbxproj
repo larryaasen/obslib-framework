@@ -9,15 +9,6 @@
 /* Begin PBXBuildFile section */
 		461165E0255D68AF00240935 /* obslib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 461165DF255D68AF00240935 /* obslib.framework */; };
 		461165E1255D68AF00240935 /* obslib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 461165DF255D68AF00240935 /* obslib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		46116642256054C400240935 /* libobs-frontend-api.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4611663E256054C400240935 /* libobs-frontend-api.dylib */; };
-		46116643256054C400240935 /* libobs-frontend-api.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4611663E256054C400240935 /* libobs-frontend-api.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		46116644256054C400240935 /* libobsglad.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4611663F256054C400240935 /* libobsglad.0.dylib */; };
-		46116645256054C400240935 /* libobsglad.0.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4611663F256054C400240935 /* libobsglad.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		46116646256054C400240935 /* libobs-scripting.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 46116640256054C400240935 /* libobs-scripting.dylib */; };
-		46116647256054C400240935 /* libobs-scripting.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 46116640256054C400240935 /* libobs-scripting.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		46116648256054C400240935 /* libobs.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 46116641256054C400240935 /* libobs.0.dylib */; };
-		46116649256054C400240935 /* libobs.0.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 46116641256054C400240935 /* libobs.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		4611664B256060AA00240935 /* libobs-opengl.so in Frameworks */ = {isa = PBXBuildFile; fileRef = 4611664A256060AA00240935 /* libobs-opengl.so */; };
 		461D69CC2559A0DC003E4A28 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 461D69CB2559A0DC003E4A28 /* AVFoundation.framework */; };
 		46FFC8D52558AAC100D79F66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46FFC8D42558AAC100D79F66 /* AppDelegate.m */; };
 		46FFC8D82558AAC100D79F66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46FFC8D72558AAC100D79F66 /* ViewController.m */; };
@@ -45,11 +36,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				46116645256054C400240935 /* libobsglad.0.dylib in Embed Frameworks */,
-				46116643256054C400240935 /* libobs-frontend-api.dylib in Embed Frameworks */,
 				461165E1255D68AF00240935 /* obslib.framework in Embed Frameworks */,
-				46116649256054C400240935 /* libobs.0.dylib in Embed Frameworks */,
-				46116647256054C400240935 /* libobs-scripting.dylib in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1291,6 +1278,7 @@
 		46116B572560680800240935 /* deinterlace_yadif_2x.effect */ = {isa = PBXFileReference; lastKnownFileType = text; path = deinterlace_yadif_2x.effect; sourceTree = "<group>"; };
 		46116B582560680800240935 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		461D69CB2559A0DC003E4A28 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		46AAEA9725C2E39900B76EA9 /* obslib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = obslib.framework; path = ../../obslib.framework; sourceTree = "<group>"; };
 		46FFC8D02558AAC100D79F66 /* obslib-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "obslib-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46FFC8D32558AAC100D79F66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		46FFC8D42558AAC100D79F66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1312,13 +1300,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4611664B256060AA00240935 /* libobs-opengl.so in Frameworks */,
-				46116646256054C400240935 /* libobs-scripting.dylib in Frameworks */,
-				46116642256054C400240935 /* libobs-frontend-api.dylib in Frameworks */,
-				46116644256054C400240935 /* libobsglad.0.dylib in Frameworks */,
 				461D69CC2559A0DC003E4A28 /* AVFoundation.framework in Frameworks */,
 				461165E0255D68AF00240935 /* obslib.framework in Frameworks */,
-				46116648256054C400240935 /* libobs.0.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3104,6 +3087,7 @@
 		46FFC8F52558AAF300D79F66 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				46AAEA9725C2E39900B76EA9 /* obslib.framework */,
 				4611664A256060AA00240935 /* libobs-opengl.so */,
 				4611663E256054C400240935 /* libobs-frontend-api.dylib */,
 				46116640256054C400240935 /* libobs-scripting.dylib */,

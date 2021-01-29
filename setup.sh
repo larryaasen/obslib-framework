@@ -6,6 +6,7 @@ curl -L https://github.com/larryaasen/obs-studio/releases/download/26.0-framewor
 # Unzip files
 rm -dfr libobs-files
 unzip -q libobs-files.zip -d libobs-files
+mv libobs-files/libobs libobs-files/Headers
 
 # Build framework
 # When signing, use: -allowProvisioningUpdates
