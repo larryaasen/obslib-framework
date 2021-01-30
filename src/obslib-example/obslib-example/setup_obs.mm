@@ -51,7 +51,7 @@ using DisplayContext =
 
 #undef DECLARE_DELETER
 
-extern "C" bool CreateOBS()
+extern "C" bool CreateOBS(void)
 {
     if (!obs_startup("en", "Larry/Frameworks/obslib.framework/Resources/", NULL)) {
         printf("Couldn't create OBS\n");

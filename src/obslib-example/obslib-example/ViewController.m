@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "setup_obs.h"
 
 @implementation ViewController
 

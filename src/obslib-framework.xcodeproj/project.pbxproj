@@ -464,7 +464,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = "/bin/sh -x";
-			shellScript = "# Copy Header files\ncp -Rf ${PROJECT_DIR}/../libobs-files/Headers/ ${BUILT_PRODUCTS_DIR}/${CONTENTS_FOLDER_PATH}/Headers\n\n# Remove framework folder so the end result is clean\nrm -R ${PROJECT_DIR}/../obslib.framework    \n\n#mkdir -p ${PROJECT_DIR}/../build\n\ncp -Rf ${BUILT_PRODUCTS_DIR}/obslib.framework ${PROJECT_DIR}/../obslib.framework\n";
+			shellScript = "# Copy Header files\ncp -Rf ${PROJECT_DIR}/../libobs-files/Headers/ ${BUILT_PRODUCTS_DIR}/${CONTENTS_FOLDER_PATH}/Headers\n\n# Remove framework folder so the end result is clean\nrm -R ${PROJECT_DIR}/../obslib.framework\n\n#mkdir -p ${PROJECT_DIR}/../build\n\ncp -Rf ${BUILT_PRODUCTS_DIR}/obslib.framework ${PROJECT_DIR}/../obslib.framework\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 

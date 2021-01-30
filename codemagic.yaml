@@ -23,7 +23,7 @@ workflows:
       - name: Run Setup Script
         script: ./setup.sh
     artifacts:
-      - ./obslib.framework
+      - ./obslib.framework.zip
     publishing:
       slack:
         channel: '#general'

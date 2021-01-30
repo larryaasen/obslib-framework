@@ -8,10 +8,10 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'GNU General Public License v3.0', :file => './LICENSE' }
   s.authors          = { 'Jim' => 'obs.jim@gmail.com' }
   s.source           = { :http => 'file:///Users/larry/Projects/obs-studio' }
-  # s.source_files     = "build/obslib.framework/Headers/**/*.{h,hpp}"
-  # s.public_header_files = "build/obslib.framework/Headers/**/*.{h,hpp}"
-  s.header_mappings_dir = "build/obslib.framework/Headers"
-  s.vendored_frameworks = "build/obslib.framework"
+  # s.source_files     = "obslib.framework/Headers/**/*.{h,hpp}"
+  # s.public_header_files = "obslib.framework/Headers/**/*.{h,hpp}"
+  s.header_mappings_dir = "obslib.framework/Headers"
+  s.vendored_frameworks = "obslib.framework"
   s.platforms        = { :osx => '10.11' }
 
   # Silence GL deprecation warnings

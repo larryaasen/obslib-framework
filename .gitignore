@@ -6,6 +6,7 @@ xcuserdata/
 build/
 Headers/
 Plugins/
+libobs-files/
 obslib.framework/
 
 *.so
@@ -13,4 +14,4 @@ obslib.framework/
 obslib-example/Resources/data/
 
 libobs-files.zip
-libobs-files
+obslib.framework.zip
