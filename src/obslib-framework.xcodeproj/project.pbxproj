@@ -62,34 +62,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		461D699025599955003E4A28 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = Headers/graphics;
-			dstSubfolderSpec = 1;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		461D69A6255999CE003E4A28 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "Headers/media-io";
-			dstSubfolderSpec = 1;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		461D69C225599A88003E4A28 /* Copy Files */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 1;
-			files = (
-			);
-			name = "Copy Files";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4689F4BD255C4D3F00A98111 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -162,15 +134,6 @@
 				46D887C525BFB0D100EB380C /* rtmp-services.so in CopyFiles */,
 				46D887C625BFB0D100EB380C /* text-freetype2.so in CopyFiles */,
 				46D887C725BFB0D100EB380C /* vlc-video.so in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46FFCA3C2558B0CE00D79F66 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = Headers/util;
-			dstSubfolderSpec = 1;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,10 +367,6 @@
 			buildConfigurationList = 46FFC8492558A10100D79F66 /* Build configuration list for PBXNativeTarget "obslib" */;
 			buildPhases = (
 				46FFC8302558A10000D79F66 /* Headers */,
-				461D69C225599A88003E4A28 /* Copy Files */,
-				461D699025599955003E4A28 /* CopyFiles */,
-				461D69A6255999CE003E4A28 /* CopyFiles */,
-				46FFCA3C2558B0CE00D79F66 /* CopyFiles */,
 				46FFC8312558A10000D79F66 /* Sources */,
 				46FFC8592558A35B00D79F66 /* Embed Libraries */,
 				46FFC8322558A10000D79F66 /* Frameworks */,
@@ -505,7 +464,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = "/bin/sh -x";
-			shellScript = "# Copy Header files\ncp -Rf ${PROJECT_DIR}/../libobs-files/Headers/ ${CONTENTS_FOLDER_PATH}/Headers\n\n# Remove framework folder so the end result is clean\nrm -R ${PROJECT_DIR}/../obslib.framework    \n\n#mkdir -p ${PROJECT_DIR}/../build\n\ncp -Rf ${BUILT_PRODUCTS_DIR}/obslib.framework ${PROJECT_DIR}/../obslib.framework\n";
+			shellScript = "# Copy Header files\ncp -Rf ${PROJECT_DIR}/../libobs-files/Headers/ ${BUILT_PRODUCTS_DIR}/${CONTENTS_FOLDER_PATH}/Headers\n\n# Remove framework folder so the end result is clean\nrm -R ${PROJECT_DIR}/../obslib.framework    \n\n#mkdir -p ${PROJECT_DIR}/../build\n\ncp -Rf ${BUILT_PRODUCTS_DIR}/obslib.framework ${PROJECT_DIR}/../obslib.framework\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
