@@ -25,3 +25,12 @@ configure the included dylibs to be linked.
 ## One Big Question
 How do I configure Xcode during the building of the framework
 to include the dylibs so that they are automatically linked?
+
+## Usage (work in progress)
+Download the Alpha version of the framework [here](https://github.com/larryaasen/obslib-framework/releases/download/framework-alpha-1/obslib.framework.zip).
+
+Add the obslib.framework to your Xcode project.
+
+Call the function ```obs_startup``` from your source code.
+
+Compile, link, and run your project.
