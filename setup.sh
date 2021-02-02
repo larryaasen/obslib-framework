@@ -27,7 +27,7 @@ codesign --display --verbose -r- obslib.framework
 codesign --verify --verbose obslib.framework
 
 # Zip the framework folder so the symbolic links are maintained
-zip --recurse-paths --symlinks obslib.framework.zip obslib.framework
+zip -q --recurse-paths --symlinks obslib.framework.zip obslib.framework
 
 ls -al obslib.framework.zip
 
