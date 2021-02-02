@@ -11,12 +11,20 @@ unzip -q libobs-files.zip -d libobs-files
 mv libobs-files/libobs libobs-files/Headers
 
 # Build framework
-# When signing, use: -allowProvisioningUpdates
 cd src; xcodebuild -project obslib-framework.xcodeproj -scheme obslib -configuration Debug CODE_SIGNING_REQUIRED="NO" CODE_SIGN_IDENTITY= -sdk macosx clean build
 
 cd ..
 pwd
 ls -al
+
+# Code sign the framework
+codesign --force --deep --sign - obslib.framework
+
+# Display basic information about the result of the signing process
+codesign --display --verbose -r- obslib.framework
+
+# Verify your signature
+codesign --verify --verbose obslib.framework
 
 # Zip the framework folder so the symbolic links are maintained
 zip --recurse-paths --symlinks obslib.framework.zip obslib.framework
