@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4627FCC725D87D01008253FC /* libavcodec.58.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4627FCC625D87D01008253FC /* libavcodec.58.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		4627FCCD25D87E30008253FC /* libx264.161.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4627FCC925D87E30008253FC /* libx264.161.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		4627FCCE25D87E30008253FC /* libswscale.5.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4627FCCA25D87E30008253FC /* libswscale.5.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		4627FCCF25D87E30008253FC /* libswresample.3.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4627FCCB25D87E30008253FC /* libswresample.3.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		4627FCD025D87E30008253FC /* libspeexdsp.1.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4627FCCC25D87E30008253FC /* libspeexdsp.1.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		46D887B325BFB0D100EB380C /* coreaudio-encoder.so in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8878925BFB00B00EB380C /* coreaudio-encoder.so */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		46D887B425BFB0D100EB380C /* decklink-captions.so in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8879525BFB00C00EB380C /* decklink-captions.so */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		46D887B525BFB0D100EB380C /* decklink-ouput-ui.so in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8878D25BFB00C00EB380C /* decklink-ouput-ui.so */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
@@ -92,6 +97,11 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				4627FCC725D87D01008253FC /* libavcodec.58.dylib in CopyFiles */,
+				4627FCCD25D87E30008253FC /* libx264.161.dylib in CopyFiles */,
+				4627FCD025D87E30008253FC /* libspeexdsp.1.dylib in CopyFiles */,
+				4627FCCF25D87E30008253FC /* libswresample.3.dylib in CopyFiles */,
+				4627FCCE25D87E30008253FC /* libswscale.5.dylib in CopyFiles */,
 				46E2C6DB25BFCAB10008F59C /* libmbedcrypto.2.24.0.dylib in CopyFiles */,
 				46E2C6CF25BFCAB10008F59C /* libluajit-5.1.2.1.0.dylib in CopyFiles */,
 				46E2C6DD25BFCAB10008F59C /* libavutil.56.dylib in CopyFiles */,
@@ -143,23 +153,12 @@
 		461D69D5255C2CFB003E4A28 /* libavcodec.58.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavcodec.58.dylib; path = ../../../../private/tmp/obsdeps/bin/libavcodec.58.dylib; sourceTree = "<group>"; };
 		461D69D8255C2D0E003E4A28 /* libavutil.56.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavutil.56.dylib; path = ../../../../private/tmp/obsdeps/bin/libavutil.56.dylib; sourceTree = "<group>"; };
 		461D69DB255C2D1D003E4A28 /* libavformat.58.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavformat.58.dylib; path = ../../../../private/tmp/obsdeps/bin/libavformat.58.dylib; sourceTree = "<group>"; };
+		4627FCC625D87D01008253FC /* libavcodec.58.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavcodec.58.dylib; path = "../libobs-files/libavcodec.58.dylib"; sourceTree = "<group>"; };
+		4627FCC925D87E30008253FC /* libx264.161.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libx264.161.dylib; path = "../libobs-files/libx264.161.dylib"; sourceTree = "<group>"; };
+		4627FCCA25D87E30008253FC /* libswscale.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswscale.5.dylib; path = "../libobs-files/libswscale.5.dylib"; sourceTree = "<group>"; };
+		4627FCCB25D87E30008253FC /* libswresample.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswresample.3.dylib; path = "../libobs-files/libswresample.3.dylib"; sourceTree = "<group>"; };
+		4627FCCC25D87E30008253FC /* libspeexdsp.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libspeexdsp.1.dylib; path = "../libobs-files/libspeexdsp.1.dylib"; sourceTree = "<group>"; };
 		467B07C325C4CF0300C4E45F /* Headers */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Headers; path = "../libobs-files/Headers"; sourceTree = "<group>"; };
-		4689F4A0255C375000A98111 /* libmbedtls.2.16.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmbedtls.2.16.5.dylib; path = ../../../../private/tmp/obsdeps/lib/libmbedtls.2.16.5.dylib; sourceTree = "<group>"; };
-		4689F4A1255C375000A98111 /* libfreetype.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfreetype.6.dylib; path = ../../../../private/tmp/obsdeps/lib/libfreetype.6.dylib; sourceTree = "<group>"; };
-		4689F4A2255C375000A98111 /* libmbedx509.2.16.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmbedx509.2.16.5.dylib; path = ../../../../private/tmp/obsdeps/lib/libmbedx509.2.16.5.dylib; sourceTree = "<group>"; };
-		4689F4A3255C375100A98111 /* librnnoise.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = librnnoise.0.dylib; path = ../../../../private/tmp/obsdeps/lib/librnnoise.0.dylib; sourceTree = "<group>"; };
-		4689F4A4255C375100A98111 /* libluajit-5.1.2.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libluajit-5.1.2.1.0.dylib"; path = "../../../../private/tmp/obsdeps/lib/libluajit-5.1.2.1.0.dylib"; sourceTree = "<group>"; };
-		4689F4A5255C375100A98111 /* libmbedcrypto.2.16.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmbedcrypto.2.16.5.dylib; path = ../../../../private/tmp/obsdeps/lib/libmbedcrypto.2.16.5.dylib; sourceTree = "<group>"; };
-		4689F4AC255C37C600A98111 /* libavformat.58.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavformat.58.dylib; path = ../../../../private/tmp/obsdeps/bin/libavformat.58.dylib; sourceTree = "<group>"; };
-		4689F4AD255C37C600A98111 /* libpostproc.55.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpostproc.55.dylib; path = ../../../../private/tmp/obsdeps/bin/libpostproc.55.dylib; sourceTree = "<group>"; };
-		4689F4AE255C37C600A98111 /* libavfilter.7.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavfilter.7.dylib; path = ../../../../private/tmp/obsdeps/bin/libavfilter.7.dylib; sourceTree = "<group>"; };
-		4689F4AF255C37C600A98111 /* libjansson.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libjansson.4.dylib; path = ../../../../private/tmp/obsdeps/bin/libjansson.4.dylib; sourceTree = "<group>"; };
-		4689F4B0255C37C600A98111 /* libavcodec.58.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavcodec.58.dylib; path = ../../../../private/tmp/obsdeps/bin/libavcodec.58.dylib; sourceTree = "<group>"; };
-		4689F4B1255C37C600A98111 /* libavutil.56.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavutil.56.dylib; path = ../../../../private/tmp/obsdeps/bin/libavutil.56.dylib; sourceTree = "<group>"; };
-		4689F4B2255C37C600A98111 /* libswscale.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswscale.5.dylib; path = ../../../../private/tmp/obsdeps/bin/libswscale.5.dylib; sourceTree = "<group>"; };
-		4689F4B3255C37C600A98111 /* libavdevice.58.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libavdevice.58.dylib; path = ../../../../private/tmp/obsdeps/bin/libavdevice.58.dylib; sourceTree = "<group>"; };
-		4689F4B4255C37C700A98111 /* libx264.160.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libx264.160.dylib; path = ../../../../private/tmp/obsdeps/bin/libx264.160.dylib; sourceTree = "<group>"; };
-		4689F4B5255C37C700A98111 /* libswresample.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswresample.3.dylib; path = ../../../../private/tmp/obsdeps/bin/libswresample.3.dylib; sourceTree = "<group>"; };
 		46D8878825BFB00B00EB380C /* obs-vst.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = "obs-vst.so"; path = "../../libobs-files/build/rundir/RelWithDebInfo/obs-plugins/obs-vst.so"; sourceTree = "<group>"; };
 		46D8878925BFB00B00EB380C /* coreaudio-encoder.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = "coreaudio-encoder.so"; path = "../../libobs-files/build/rundir/RelWithDebInfo/obs-plugins/coreaudio-encoder.so"; sourceTree = "<group>"; };
 		46D8878A25BFB00C00EB380C /* frontend-tools.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = "frontend-tools.so"; path = "../../libobs-files/build/rundir/RelWithDebInfo/obs-plugins/frontend-tools.so"; sourceTree = "<group>"; };
@@ -266,22 +265,11 @@
 		46FFC82B2558A10000D79F66 = {
 			isa = PBXGroup;
 			children = (
-				4689F4B0255C37C600A98111 /* libavcodec.58.dylib */,
-				4689F4B3255C37C600A98111 /* libavdevice.58.dylib */,
-				4689F4AE255C37C600A98111 /* libavfilter.7.dylib */,
-				4689F4AC255C37C600A98111 /* libavformat.58.dylib */,
-				4689F4B1255C37C600A98111 /* libavutil.56.dylib */,
-				4689F4AF255C37C600A98111 /* libjansson.4.dylib */,
-				4689F4AD255C37C600A98111 /* libpostproc.55.dylib */,
-				4689F4B5255C37C700A98111 /* libswresample.3.dylib */,
-				4689F4B2255C37C600A98111 /* libswscale.5.dylib */,
-				4689F4B4255C37C700A98111 /* libx264.160.dylib */,
-				4689F4A1255C375000A98111 /* libfreetype.6.dylib */,
-				4689F4A4255C375100A98111 /* libluajit-5.1.2.1.0.dylib */,
-				4689F4A5255C375100A98111 /* libmbedcrypto.2.16.5.dylib */,
-				4689F4A0255C375000A98111 /* libmbedtls.2.16.5.dylib */,
-				4689F4A2255C375000A98111 /* libmbedx509.2.16.5.dylib */,
-				4689F4A3255C375100A98111 /* librnnoise.0.dylib */,
+				4627FCC625D87D01008253FC /* libavcodec.58.dylib */,
+				4627FCCC25D87E30008253FC /* libspeexdsp.1.dylib */,
+				4627FCCB25D87E30008253FC /* libswresample.3.dylib */,
+				4627FCCA25D87E30008253FC /* libswscale.5.dylib */,
+				4627FCC925D87E30008253FC /* libx264.161.dylib */,
 				46E2C6B625BFB97B0008F59C /* data */,
 				467B07C325C4CF0300C4E45F /* Headers */,
 				4689F497255C35F600A98111 /* PlugIns */,
@@ -464,7 +452,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = "/bin/sh -x";
-			shellScript = "# Copy Header files\ncp -Rf ${PROJECT_DIR}/../libobs-files/Headers/ ${BUILT_PRODUCTS_DIR}/${CONTENTS_FOLDER_PATH}/Headers\n\n# Remove framework folder so the end result is clean\nrm -R ${PROJECT_DIR}/../obslib.framework\n\n#mkdir -p ${PROJECT_DIR}/../build\n\ncp -Rf ${BUILT_PRODUCTS_DIR}/obslib.framework ${PROJECT_DIR}/../obslib.framework\n";
+			shellScript = "# Copy Header files\ncp -Rf ${PROJECT_DIR}/../libobs-files/Headers/ ${BUILT_PRODUCTS_DIR}/${CONTENTS_FOLDER_PATH}/Headers\n\n# Fix the load paths of frameworks\nFRAMEWORKS=${BUILT_PRODUCTS_DIR}/obslib.framework/Versions/A/Frameworks\nLIBRARIES=${BUILT_PRODUCTS_DIR}/obslib.framework/Versions/A/Libraries\nTMP_BIN=/tmp/obsdeps/bin\nTMP_LIB=/tmp/obsdeps/lib\n\nfix_tmp_paths()\n{\n    lib_path=$1\n    shift;\n    for lib in $@\n    do\n        install_name_tool -change $TMP_LIB/$lib @rpath/$lib $lib_path\n    done\n\n    # List the dependent libraries to be loaded from the lib\n    otool -L $lib_path\n}\n\nfix_tmp_paths $LIBRARIES/libobs.0.dylib libavcodec.58.dylib libjansson.4.dylib libavformat.58.dylib libavutil.56.dylib libswscale.5.dylib libswresample.3.dylib\nfix_tmp_paths $FRAMEWORKS/libavcodec.58.dylib libavcodec.58.dylib libswresample.3.dylib libavutil.56.dylib libx264.161.dylib\nfix_tmp_paths $FRAMEWORKS/libswresample.3.dylib libswresample.3.dylib libavutil.56.dylib\nfix_tmp_paths $FRAMEWORKS/libavformat.58.dylib libavformat.58.dylib libavcodec.58.dylib libswresample.3.dylib libavutil.56.dylib libmbedtls.2.24.0.dylib libmbedx509.2.24.0.dylib libmbedcrypto.2.24.0.dylib libx264.161.dylib\nfix_tmp_paths $FRAMEWORKS/libmbedtls.2.24.0.dylib libmbedtls.2.24.0.dylib libmbedx509.1.dylib libmbedcrypto.5.dylib\n\ncd $FRAMEWORKS; ln -fsv libmbedx509.2.24.0.dylib libmbedx509.1.dylib;\ncd $FRAMEWORKS; ln -fsv libmbedcrypto.2.24.0.dylib libmbedcrypto.5.dylib;\n \n# Remove framework folder so the end result is clean\nrm -R ${PROJECT_DIR}/../obslib.framework\n\n#mkdir -p ${PROJECT_DIR}/../build\n\ncp -Rf ${BUILT_PRODUCTS_DIR}/obslib.framework ${PROJECT_DIR}/..\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -621,7 +609,7 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
+					"@loader_path/../Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = "${PROJECT_DIR}/../libobs-files/build/rundir/RelWithDebInfo/bin";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
@@ -648,7 +636,7 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
+					"@loader_path/../Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = "${PROJECT_DIR}/../libobs-files/build/rundir/RelWithDebInfo/bin";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;

@@ -34,3 +34,8 @@ Add the obslib.framework to your Xcode project.
 Call the function ```obs_startup``` from your source code.
 
 Compile, link, and run your project.
+
+## Building
+
+When building this framework, the Xcode Build Phase configuration has a Run Script
+phase to fix the paths in the dylibs.
