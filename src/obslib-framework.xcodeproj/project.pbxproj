@@ -12,10 +12,8 @@
 		4627FCCE25D87E30008253FC /* libswscale.5.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4627FCCA25D87E30008253FC /* libswscale.5.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		4627FCCF25D87E30008253FC /* libswresample.3.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4627FCCB25D87E30008253FC /* libswresample.3.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		4627FCD025D87E30008253FC /* libspeexdsp.1.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4627FCCC25D87E30008253FC /* libspeexdsp.1.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		4627FD0F25D98CBB008253FC /* libobs-opengl.so in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 4627FD0E25D98CBB008253FC /* libobs-opengl.so */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		46D887B325BFB0D100EB380C /* coreaudio-encoder.so in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8878925BFB00B00EB380C /* coreaudio-encoder.so */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		46D887B425BFB0D100EB380C /* decklink-captions.so in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8879525BFB00C00EB380C /* decklink-captions.so */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		46D887B525BFB0D100EB380C /* decklink-ouput-ui.so in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8878D25BFB00C00EB380C /* decklink-ouput-ui.so */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		46D887B625BFB0D100EB380C /* frontend-tools.so in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8878A25BFB00C00EB380C /* frontend-tools.so */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		46D887B725BFB0D100EB380C /* image-source.so in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8879625BFB00C00EB380C /* image-source.so */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		46D887B825BFB0D100EB380C /* mac-avcapture.so in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8879925BFB00D00EB380C /* mac-avcapture.so */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		46D887B925BFB0D100EB380C /* mac-capture.so in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46D8879C25BFB00D00EB380C /* mac-capture.so */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
@@ -83,6 +81,7 @@
 			dstPath = Libraries;
 			dstSubfolderSpec = 6;
 			files = (
+				4627FD0F25D98CBB008253FC /* libobs-opengl.so in Embed Libraries */,
 				46D887D225BFB1DC00EB380C /* libobs-frontend-api.dylib in Embed Libraries */,
 				46D887CF25BFB1DC00EB380C /* libobs.0.dylib in Embed Libraries */,
 				46D887CE25BFB1DC00EB380C /* libobs-scripting.dylib in Embed Libraries */,
@@ -124,9 +123,6 @@
 			dstSubfolderSpec = 13;
 			files = (
 				46D887B325BFB0D100EB380C /* coreaudio-encoder.so in CopyFiles */,
-				46D887B425BFB0D100EB380C /* decklink-captions.so in CopyFiles */,
-				46D887B525BFB0D100EB380C /* decklink-ouput-ui.so in CopyFiles */,
-				46D887B625BFB0D100EB380C /* frontend-tools.so in CopyFiles */,
 				46D887B725BFB0D100EB380C /* image-source.so in CopyFiles */,
 				46D887B825BFB0D100EB380C /* mac-avcapture.so in CopyFiles */,
 				46D887B925BFB0D100EB380C /* mac-capture.so in CopyFiles */,
@@ -158,6 +154,7 @@
 		4627FCCA25D87E30008253FC /* libswscale.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswscale.5.dylib; path = "../libobs-files/libswscale.5.dylib"; sourceTree = "<group>"; };
 		4627FCCB25D87E30008253FC /* libswresample.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libswresample.3.dylib; path = "../libobs-files/libswresample.3.dylib"; sourceTree = "<group>"; };
 		4627FCCC25D87E30008253FC /* libspeexdsp.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libspeexdsp.1.dylib; path = "../libobs-files/libspeexdsp.1.dylib"; sourceTree = "<group>"; };
+		4627FD0E25D98CBB008253FC /* libobs-opengl.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = "libobs-opengl.so"; path = "../libobs-files/build/rundir/RelWithDebInfo/bin/libobs-opengl.so"; sourceTree = "<group>"; };
 		467B07C325C4CF0300C4E45F /* Headers */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Headers; path = "../libobs-files/Headers"; sourceTree = "<group>"; };
 		46D8878825BFB00B00EB380C /* obs-vst.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = "obs-vst.so"; path = "../../libobs-files/build/rundir/RelWithDebInfo/obs-plugins/obs-vst.so"; sourceTree = "<group>"; };
 		46D8878925BFB00B00EB380C /* coreaudio-encoder.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; name = "coreaudio-encoder.so"; path = "../../libobs-files/build/rundir/RelWithDebInfo/obs-plugins/coreaudio-encoder.so"; sourceTree = "<group>"; };
@@ -265,6 +262,7 @@
 		46FFC82B2558A10000D79F66 = {
 			isa = PBXGroup;
 			children = (
+				4627FD0E25D98CBB008253FC /* libobs-opengl.so */,
 				4627FCC625D87D01008253FC /* libavcodec.58.dylib */,
 				4627FCCC25D87E30008253FC /* libspeexdsp.1.dylib */,
 				4627FCCB25D87E30008253FC /* libswresample.3.dylib */,
