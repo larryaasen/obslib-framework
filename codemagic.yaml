@@ -31,3 +31,7 @@ workflows:
         notify:
           success: true                # To not receive a notification when a build succeeds
           failure: true                # To not receive a notification when a build fails
+      github_releases:
+        prerelease: true
+        artifact_patterns:
+          - obslib.framework.zip
