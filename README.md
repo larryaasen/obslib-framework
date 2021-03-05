@@ -40,6 +40,8 @@ Compile, link, and run your project.
 When building this framework, the Xcode Build Phase configuration has a Run Script
 phase to fix the paths in the dylibs.
 
+It can be built using Codemagic or GitHub Actions.
+
 ## TODO
 
 These PlugIns do not load because: Library not loaded: /tmp/obsdeps/lib/QtWidgets.framework/Versions/5/QtWidgets. UI frameworks like QtWidgets are not being loaded since this is a non-UI framework.
