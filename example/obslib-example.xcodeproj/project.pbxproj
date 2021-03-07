@@ -15,19 +15,8 @@
 		46FFC8DA2558AAC200D79F66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46FFC8D92558AAC200D79F66 /* Assets.xcassets */; };
 		46FFC8DD2558AAC200D79F66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46FFC8DB2558AAC200D79F66 /* Main.storyboard */; };
 		46FFC8E02558AAC200D79F66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46FFC8DF2558AAC200D79F66 /* main.m */; };
-		46FFC8EB2558AAC200D79F66 /* obslib_exampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46FFC8EA2558AAC200D79F66 /* obslib_exampleTests.m */; };
 		46FFC8FB2558ABA900D79F66 /* setup_obs.mm in Sources */ = {isa = PBXBuildFile; fileRef = 46FFC8FA2558ABA900D79F66 /* setup_obs.mm */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		46FFC8E72558AAC200D79F66 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46FFC8C82558AAC100D79F66 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 46FFC8CF2558AAC100D79F66;
-			remoteInfo = "obslib-example";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		46B2B0B325F3FE9F001B465C /* Embed Frameworks */ = {
@@ -59,9 +48,6 @@
 		46FFC8DE2558AAC200D79F66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46FFC8DF2558AAC200D79F66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		46FFC8E12558AAC200D79F66 /* obslib_example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = obslib_example.entitlements; sourceTree = "<group>"; };
-		46FFC8E62558AAC200D79F66 /* obslib-exampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "obslib-exampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		46FFC8EA2558AAC200D79F66 /* obslib_exampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = obslib_exampleTests.m; sourceTree = "<group>"; };
-		46FFC8EC2558AAC200D79F66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46FFC8FA2558ABA900D79F66 /* setup_obs.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = setup_obs.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,13 +61,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46FFC8E32558AAC200D79F66 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -90,7 +69,6 @@
 			children = (
 				46B2B0CD25F47EB9001B465C /* obslib.framework */,
 				46FFC8D22558AAC100D79F66 /* obslib-example */,
-				46FFC8E92558AAC200D79F66 /* obslib-exampleTests */,
 				46FFC8D12558AAC100D79F66 /* Products */,
 				46FFC8F52558AAF300D79F66 /* Frameworks */,
 			);
@@ -100,7 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				46FFC8D02558AAC100D79F66 /* obslib-example.app */,
-				46FFC8E62558AAC200D79F66 /* obslib-exampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,15 +98,6 @@
 				46FFC8E12558AAC200D79F66 /* obslib_example.entitlements */,
 			);
 			path = "obslib-example";
-			sourceTree = "<group>";
-		};
-		46FFC8E92558AAC200D79F66 /* obslib-exampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				46FFC8EA2558AAC200D79F66 /* obslib_exampleTests.m */,
-				46FFC8EC2558AAC200D79F66 /* Info.plist */,
-			);
-			path = "obslib-exampleTests";
 			sourceTree = "<group>";
 		};
 		46FFC8F52558AAF300D79F66 /* Frameworks */ = {
@@ -164,24 +132,6 @@
 			productReference = 46FFC8D02558AAC100D79F66 /* obslib-example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		46FFC8E52558AAC200D79F66 /* obslib-exampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 46FFC8F22558AAC200D79F66 /* Build configuration list for PBXNativeTarget "obslib-exampleTests" */;
-			buildPhases = (
-				46FFC8E22558AAC200D79F66 /* Sources */,
-				46FFC8E32558AAC200D79F66 /* Frameworks */,
-				46FFC8E42558AAC200D79F66 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				46FFC8E82558AAC200D79F66 /* PBXTargetDependency */,
-			);
-			name = "obslib-exampleTests";
-			productName = "obslib-exampleTests";
-			productReference = 46FFC8E62558AAC200D79F66 /* obslib-exampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -193,10 +143,6 @@
 				TargetAttributes = {
 					46FFC8CF2558AAC100D79F66 = {
 						CreatedOnToolsVersion = 11.7;
-					};
-					46FFC8E52558AAC200D79F66 = {
-						CreatedOnToolsVersion = 11.7;
-						TestTargetID = 46FFC8CF2558AAC100D79F66;
 					};
 				};
 			};
@@ -214,7 +160,6 @@
 			projectRoot = "";
 			targets = (
 				46FFC8CF2558AAC100D79F66 /* obslib-example */,
-				46FFC8E52558AAC200D79F66 /* obslib-exampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -226,13 +171,6 @@
 			files = (
 				46FFC8DA2558AAC200D79F66 /* Assets.xcassets in Resources */,
 				46FFC8DD2558AAC200D79F66 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		46FFC8E42558AAC200D79F66 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,23 +209,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46FFC8E22558AAC200D79F66 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				46FFC8EB2558AAC200D79F66 /* obslib_exampleTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		46FFC8E82558AAC200D79F66 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 46FFC8CF2558AAC100D79F66 /* obslib-example */;
-			targetProxy = 46FFC8E72558AAC200D79F66 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		46FFC8DB2558AAC200D79F66 /* Main.storyboard */ = {
@@ -466,46 +388,6 @@
 			};
 			name = Release;
 		};
-		46FFC8F32558AAC200D79F66 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = R7B3296P2Z;
-				INFOPLIST_FILE = "obslib-exampleTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.obs-studio.obslib-exampleTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/obslib-example.app/Contents/MacOS/obslib-example";
-			};
-			name = Debug;
-		};
-		46FFC8F42558AAC200D79F66 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = R7B3296P2Z;
-				INFOPLIST_FILE = "obslib-exampleTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.obs-studio.obslib-exampleTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/obslib-example.app/Contents/MacOS/obslib-example";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -523,15 +405,6 @@
 			buildConfigurations = (
 				46FFC8F02558AAC200D79F66 /* Debug */,
 				46FFC8F12558AAC200D79F66 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		46FFC8F22558AAC200D79F66 /* Build configuration list for PBXNativeTarget "obslib-exampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				46FFC8F32558AAC200D79F66 /* Debug */,
-				46FFC8F42558AAC200D79F66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
