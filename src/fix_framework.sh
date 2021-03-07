@@ -1,6 +1,14 @@
-#!/bin/sh
+#!/bin/bash
+# This runs in the Xcode last build phase run script.
 
 echo 'fix_framework.sh: Fixing framework files'
+
+# Check if libobs-files exists
+if [ ! -d "${PROJECT_DIR}/../libobs-files" ] 
+then
+    echo "Directory libobs-files DOES NOT exist."
+    exit 9999 # die with error code 9999
+fi
 
 # Copy Header files
 cp -Rf ${PROJECT_DIR}/../libobs-files/Headers/ ${BUILT_PRODUCTS_DIR}/${CONTENTS_FOLDER_PATH}/Headers
