@@ -1,0 +1,16 @@
+PODS:
+  - obslib (26.1.2)
+
+DEPENDENCIES:
+  - obslib (from `../`)
+
+EXTERNAL SOURCES:
+  obslib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  obslib: 5fb12f5406e00069d27de6264f09fdca2c51aacb
+
+PODFILE CHECKSUM: ef275f90ce74b16b7df46720c252d8f0ed40371f
+
+COCOAPODS: 1.10.1

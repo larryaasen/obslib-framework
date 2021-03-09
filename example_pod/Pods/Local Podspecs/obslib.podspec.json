@@ -1,0 +1,32 @@
+{
+  "name": "obslib",
+  "version": "26.1.2",
+  "summary": "OBS libobs Framework",
+  "description": "The OBS Studio libobs as a framework",
+  "homepage": "https://github.com/larryaasen/obslib-framework",
+  "license": {
+    "type": "GNU General Public License v3.0",
+    "file": "./LICENSE"
+  },
+  "authors": {
+    "Jim": "obs.jim@gmail.com"
+  },
+  "source": {
+    "http": "file:///Users/larry/Projects/obs-studio"
+  },
+  "header_mappings_dir": "obslib.framework/Headers",
+  "vendored_frameworks": [
+    "obslib.framework"
+  ],
+  "platforms": {
+    "osx": "10.11"
+  },
+  "user_target_xcconfig": {
+    "OTHER_LDFLAGS": "-lobs.0",
+    "LD_RUNPATH_SEARCH_PATHS": "@loader_path/../Frameworks/obslib.framework/Versions/A/Frameworks @loader_path/../Frameworks/obslib.framework/Versions/A/Libraries"
+  },
+  "pod_target_xcconfig": {
+    "SWIFT_ACTIVE_COMPILATION_CONDITIONS": "GLES_SILENCE_DEPRECATION",
+    "DEFINES_MODULE": "YES"
+  }
+}

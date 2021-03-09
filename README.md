@@ -17,6 +17,8 @@ the included header and resource files, and link with the binary. The user of th
 framework does not need to do any extra configuration other than 
 dropping the framework into the project.
 
+## Current status
+
 When this framework is used in a macOS app, it needs to link with the framework,
 but also with those included dylibs. I can get the framework to link in an app,
 but I cannot get the dylibs to link. I am not able to get Xcode to automatically
@@ -35,12 +37,19 @@ Call the function ```obs_startup``` from your source code.
 
 Compile, link, and run your project.
 
+There is an [example](example) folder containing a macOS app that links with this framework.
+
 ## Building
 
 When building this framework, the Xcode Build Phase configuration has a Run Script
 phase to fix the paths in the dylibs.
 
-It can be built using Codemagic or GitHub Actions.
+This framework can be built using Codemagic or GitHub Actions.
+
+## Cocoapods
+
+There is a Cocoapods pod for obslib that can be used to build this framework into a macOS app.
+See this [example](example_pod) for more details.
 
 ## TODO
 
