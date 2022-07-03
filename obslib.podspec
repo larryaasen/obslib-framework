@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/larryaasen/obslib-framework'
   s.license          = { :type => 'GNU General Public License v3.0', :file => './LICENSE' }
   s.authors          = { 'Jim' => 'obs.jim@gmail.com' }
-  s.source           = { :http => 'file:///Users/larry/Projects/obs-studio' }
+  s.source           = { :http => 'https://github.com/larryaasen/obs-studio' }
   s.header_mappings_dir = "obslib.framework/Headers"
   s.vendored_frameworks = ["obslib.framework"]
   # s.vendored_libraries = [
