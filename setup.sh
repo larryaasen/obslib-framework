@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# This shell script will pull down the build artifacts from larryaasen/obs-studio,
+# build and code-sign a framework, and create a zip file.
+
 rm -dfr libobs-files
 rm -dfr obslib.framework
 rm -df obslib.framework.zip
