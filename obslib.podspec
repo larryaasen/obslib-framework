@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.authors          = { 'Jim' => 'obs.jim@gmail.com' }
   s.source           = { :http => 'https://github.com/larryaasen/obslib-framework/releases/download/framework-alpha-1/obslib.framework.zip' }
   s.header_mappings_dir = "obslib.framework/Headers"
-  s.vendored_frameworks = ["obslib.framework"]
+  s.vendored_frameworks = 'obslib.framework'
   # s.vendored_libraries = [
   #   "obslib.framework/Versions/A/Libraries/libobs.0.dylib",
   #   "obslib.framework/Versions/A/Frameworks/libavcodec.58.dylib"
