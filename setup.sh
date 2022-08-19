@@ -32,12 +32,13 @@ codesign --verify --verbose obslib.framework
 
 mkdir frameworks
 mv obslib.framework frameworks
+mv frameworks obslib.framework
 
 ls -al .
-ls -al frameworks
+ls -al obslib.framework
 
 # Zip the framework folder so the symbolic links are maintained
-zip -q --recurse-paths --symlinks obslib.framework.zip frameworks
+zip -q --recurse-paths --symlinks obslib.framework.zip obslib.framework
 
 ls -al obslib.framework.zip
 
