@@ -42,4 +42,4 @@ zip -q --recurse-paths --symlinks obslib.framework.zip frameworks
 ls -al obslib.framework.zip
 
 # Validate the Pod using the files in the working directory
-pod lib lint obslib.podspec
+##pod lib lint obslib.podspec
