@@ -30,8 +30,14 @@ codesign --display --verbose -r- obslib.framework
 # Verify your signature
 codesign --verify --verbose obslib.framework
 
+mkdir frameworks
+mv obslib.framework frameworks
+
+ls -al .
+ls -al frameworks
+
 # Zip the framework folder so the symbolic links are maintained
-zip -q --recurse-paths --symlinks obslib.framework.zip obslib.framework
+zip -q --recurse-paths --symlinks obslib.framework.zip frameworks
 
 ls -al obslib.framework.zip
 
