@@ -1,5 +1,6 @@
 # obslib-framework
 
+![GitHub Actions](https://github.com/larryaasen/obslib-framework/actions/workflows/framework.yml/badge.svg)
 [![Codemagic](https://api.codemagic.io/apps/600d732c627f2f877727d718/macos-workflow/status_badge.svg)](https://codemagic.io/app/600d732c627f2f877727d718)
 [![GitHub Stars](https://img.shields.io/github/stars/larryaasen/obslib-framework.svg)](https://github.com/larryaasen/obslib-framework/stargazers)
 
