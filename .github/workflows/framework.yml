@@ -1,4 +1,4 @@
-name: "build-framework"
+name: "Framework Build"
 on: # rebuild any PRs and main branch changes
   pull_request:
   push:
