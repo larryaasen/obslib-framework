@@ -5,6 +5,8 @@
 
 rm -dfr libobs-files
 rm -dfr obslib.framework
+rm -dfr src/archives
+rm -dfr src/build
 rm -df obslib.framework.zip
 
 # Pull down artifact from larryaasen/obs-studio
@@ -30,9 +32,9 @@ codesign --display --verbose -r- obslib.framework
 # Verify your signature
 codesign --verify --verbose obslib.framework
 
-mkdir frameworks
-mv obslib.framework frameworks
-mv frameworks obslib.framework
+# mkdir frameworks
+# mv obslib.framework frameworks
+# mv frameworks obslib.framework
 
 ls -al .
 ls -al obslib.framework
@@ -43,4 +45,24 @@ zip -q --recurse-paths --symlinks obslib.framework.zip obslib.framework
 ls -al obslib.framework.zip
 
 # Validate the Pod using the files in the working directory
-##pod lib lint obslib.podspec
+pod lib lint obslib.podspec
+
+exit
+
+### New Commands (Not ready yet)
+
+# Bulid the framework for OSX devices.
+cd src; xcodebuild archive \
+    -scheme obslib \
+    -sdk macosx \
+    -archivePath "archives/macosx_devices.xcarchive" \
+    BUILD_LIBRARY_FOR_DISTRIBUTION=YES \
+    SKIP_INSTALL=NO
+
+# Code sign the framework
+codesign --force --deep --sign - archives/macosx_devices.xcarchive/Products/Library/Frameworks/obslib.framework
+
+# Build the XCFramework.
+cd src; xcodebuild -create-xcframework \
+    -framework archives/macosx_devices.xcarchive/Products/Library/Frameworks/obslib.framework \
+  -output build/obslib.xcframework
