@@ -1,22 +1,27 @@
 name: "Framework Build"
-on: # rebuild any PRs and main branch changes
+
+# rebuild any PRs and main branch changes
+on:
   pull_request:
   push:
     branches:
       - main
 
 jobs:
-  build: # make sure build/ci work properly
+  # make sure build/ci work properly
+  build-framework:
     runs-on: macOS-latest
     timeout-minutes: 10
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+
       - name: Run Setup Script
         run: ./setup.sh
         shell: bash
+
       - name: Archive framework
         uses: actions/upload-artifact@v2
         with:
           path: ./obslib.framework.zip
-          name: obslib.framework.zip
+          name: obslib.framework
