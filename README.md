@@ -4,6 +4,8 @@
 [![Codemagic](https://api.codemagic.io/apps/600d732c627f2f877727d718/macos-workflow/status_badge.svg)](https://codemagic.io/app/600d732c627f2f877727d718)
 [![GitHub Stars](https://img.shields.io/github/stars/larryaasen/obslib-framework.svg)](https://github.com/larryaasen/obslib-framework/stargazers)
 
+<b><i>As the creator and maintainer of this project, I am looking for help making this work and finishing this project. I really need someone with good knowledge of building Cocoapods frameworks in Xcode who can fix the final issues. Please consider helping out. Feel free to leave a comment on this [issue ticket #2](https://github.com/larryaasen/obslib-framework/issues/2)</i></b>
+
 
 ## Introduction
 
