@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   #   "obslib.framework/Versions/A/Libraries/libobs.0.dylib",
   #   "obslib.framework/Versions/A/Frameworks/libavcodec.58.dylib"
   # ]
-  s.platforms        = { :osx => '10.11' }
+  s.platforms        = { :osx => '10.14' }
 
   # Silence GL deprecation warnings
   s.user_target_xcconfig = {

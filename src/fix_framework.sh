@@ -17,6 +17,7 @@ cp -Rf ${PROJECT_DIR}/../libobs-files/Headers/ ${BUILT_PRODUCTS_DIR}/${CONTENTS_
 FRAMEWORKS=${BUILT_PRODUCTS_DIR}/obslib.framework/Versions/A/Frameworks
 LIBRARIES=${BUILT_PRODUCTS_DIR}/obslib.framework/Versions/A/Libraries
 PLUGINS=${BUILT_PRODUCTS_DIR}/obslib.framework/Versions/A/PlugIns
+RESOURCES=${BUILT_PRODUCTS_DIR}/obslib.framework/Versions/A/Resources
 TMP_BIN=/tmp/obsdeps/bin
 TMP_LIB=/tmp/obsdeps/lib
 
@@ -50,6 +51,10 @@ fix_tmp_paths $PLUGINS/obs-outputs.so libmbedtls.2.24.0.dylib libmbedcrypto.2.24
 fix_tmp_paths $PLUGINS/obs-x264.so libx264.161.dylib
 fix_tmp_paths $PLUGINS/rtmp-services.so libjansson.4.dylib
 fix_tmp_paths $PLUGINS/text-freetype2.so libfreetype.6.dylib
+
+fix_tmp_paths $RESOURCES/obs-ffmpeg-mux libavcodec.58.dylib libavutil.56.dylib libavformat.58.dylib
+install_name_tool -add_rpath "@loader_path/../Frameworks/obslib.framework/Versions/A/Frameworks" $RESOURCES/obs-ffmpeg-mux
+install_name_tool -add_rpath "@loader_path/../Frameworks/obslib.framework/Versions/A/Libraries"  $RESOURCES/obs-ffmpeg-mux
 
 # Setup symbolic links
 cd $FRAMEWORKS; ln -fsv libmbedx509.2.24.0.dylib libmbedx509.1.dylib;
