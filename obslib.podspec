@@ -1,7 +1,7 @@
 # pod lib lint obslib.podspec
 Pod::Spec.new do |s|
   s.name             = 'obslib'
-  s.version          = '26.1.2'
+  s.version          = '26.1.2-alpha.1'
   s.summary          = 'OBS libobs Framework'
   s.description      = 'The OBS Studio libobs as a framework'
   s.homepage         = 'https://github.com/larryaasen/obslib-framework'
